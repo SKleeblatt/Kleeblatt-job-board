@@ -1,1 +1,27 @@
-
+[
+  {
+    "name": "Monday",
+    "id": "monday",
+    "type": "comeet"
+  },
+  {
+    "name": "Fiverr",
+    "id": "fiverr",
+    "type": "comeet"
+  },
+  {
+    "name": "Riskified",
+    "id": "riskified",
+    "type": "comeet"
+  },
+  {
+    "name": "Vimeo",
+    "id": "vimeo",
+    "type": "greenhouse"
+  },
+  {
+    "name": "Lemonade",
+    "id": "lemonade",
+    "type": "greenhouse"
+  }
+]
