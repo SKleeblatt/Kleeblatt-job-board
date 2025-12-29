@@ -68,6 +68,23 @@ def main():
         print(f"Scraping {company['name']}...")
         jobs = []
         
-        # זיהוי סוג המערכת ומשיכת המשרות
         if company['type'] == 'greenhouse':
-            jobs = fetch_greenhouse(company
+            jobs = fetch_greenhouse(company['id'])
+        elif company['type'] == 'comeet':
+            jobs = fetch_comeet(company['id'])
+        elif company['type'] == 'lever':
+            jobs = fetch_lever(company['id'])
+
+        for job in jobs:
+            # סינון חכם לישראל
+            loc = job['location'].lower()
+            if 'israel' in loc or 'tel aviv' in loc or 'herzliya' in loc or 'haifa' in loc or 'jerusalem' in loc or 'ישראל' in loc:
+                markdown_content += f"| {company['name']} | {job['title']} | {job['location']} | [לינק]({job['url']}) |\n"
+
+    with open("README.md", "w", encoding="utf-8") as f:
+        f.write(markdown_content)
+    
+    print("Done!")
+
+if __name__ == "__main__":
+    main()
