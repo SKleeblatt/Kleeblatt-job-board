@@ -1,8 +1,148 @@
 [
   {
+    "name": "BioCatch",
+    "type": "custom",
+    "url": "https://www.biocatch.com/cybersecurity-careers"
+  },
+  {
+    "name": "Bria AI",
+    "type": "custom",
+    "url": "https://ex.bria.ai/career"
+  },
+  {
+    "name": "Buildots",
+    "type": "comeet",
+    "id": "buildots"
+  },
+  {
+    "name": "Bulwarx",
+    "type": "custom",
+    "url": "https://www.bulwarx.com/careers"
+  },
+  {
+    "name": "Chargeflow",
+    "type": "custom",
+    "url": "https://www.linkedin.com/company/chargeflowhq/"
+  },
+  {
+    "name": "Datadog",
+    "type": "custom",
+    "url": "https://careers.datadoghq.com/all-jobs/"
+  },
+  {
+    "name": "DriveNets",
+    "type": "custom",
+    "url": "https://forms.gle/NE9TnZyJixjDwnur6"
+  },
+  {
+    "name": "Electreon Wireless",
+    "type": "custom",
+    "url": "https://electreon.com/about-us/careers"
+  },
+  {
+    "name": "Elementor",
+    "type": "custom",
+    "url": "https://elementor.careers/explore/"
+  },
+  {
+    "name": "Gong",
+    "type": "custom",
+    "url": "https://gong.teamme.link/"
+  },
+  {
     "name": "HoneyBook",
     "type": "ashby",
     "id": "honeybook"
+  },
+  {
+    "name": "HP Indigo",
+    "type": "custom",
+    "url": "https://www.linkedin.com/jobs/search/?f_C=5390798"
+  },
+  {
+    "name": "Imagen AI",
+    "type": "custom",
+    "url": "https://imagen-ai.com/careers/"
+  },
+  {
+    "name": "Intezer",
+    "type": "custom",
+    "url": "https://intezer.com/jobs/"
+  },
+  {
+    "name": "Kela Technologies",
+    "type": "comeet",
+    "id": "kelatechnologies"
+  },
+  {
+    "name": "Lendbuzz",
+    "type": "lever",
+    "id": "lendbuzz"
+  },
+  {
+    "name": "Mobileye",
+    "type": "lever",
+    "id": "mobileye"
+  },
+  {
+    "name": "monday.com",
+    "type": "custom",
+    "url": "https://monday.com/careers"
+  },
+  {
+    "name": "Nimble Way",
+    "type": "custom",
+    "url": "https://www.nimbleway.com/careers"
+  },
+  {
+    "name": "Nortech-Network",
+    "type": "custom",
+    "url": "https://nortech-platform.com/explore/?type=job"
+  },
+  {
+    "name": "Palo Alto Networks",
+    "type": "custom",
+    "url": "https://jobs.paloaltonetworks.com/en/search-jobs"
+  },
+  {
+    "name": "Papaya Gaming",
+    "type": "custom",
+    "url": "https://www.papaya.com/careers"
+  },
+  {
+    "name": "Reeco",
+    "type": "custom",
+    "url": "https://www.linkedin.com/jobs/view/4393900883/"
+  },
+  {
+    "name": "Riverside",
+    "type": "custom",
+    "url": "https://careers.riverside.com/"
+  },
+  {
+    "name": "Sensi.AI",
+    "type": "comeet",
+    "id": "sensi"
+  },
+  {
+    "name": "Sett",
+    "type": "custom",
+    "url": "https://www.sett.ai/careers/"
+  },
+  {
+    "name": "Silverfort",
+    "type": "comeet",
+    "id": "silverfort"
+  },
+  {
+    "name": "Similarweb",
+    "type": "greenhouse",
+    "id": "similarweb"
+  },
+  {
+    "name": "SNF AI",
+    "type": "custom",
+    "url": "https://snfai.homerun.co/full-stack-engineer/en"
   },
   {
     "name": "Solitics",
@@ -10,8 +150,43 @@
     "id": "solitics"
   },
   {
-    "name": "BioCatch",
+    "name": "Spear UAV",
     "type": "custom",
-    "url": "https://www.biocatch.com/cybersecurity-careers"
+    "url": "https://spearuav.com"
+  },
+  {
+    "name": "Stampli",
+    "type": "custom",
+    "url": "https://www.stampli.com/careers/"
+  },
+  {
+    "name": "Transmit Security",
+    "type": "custom",
+    "url": "https://transmitsecurity.com/about/careers"
+  },
+  {
+    "name": "UVeye",
+    "type": "custom",
+    "url": "https://uveye.com/careers/"
+  },
+  {
+    "name": "Varonis",
+    "type": "custom",
+    "url": "https://www.varonis.com/careers"
+  },
+  {
+    "name": "vHive",
+    "type": "custom",
+    "url": "https://www.vhive.ai/careers/full-stack-team-lead-engineering-israel"
+  },
+  {
+    "name": "Viber",
+    "type": "custom",
+    "url": "https://www.viber.com/en/careers/"
+  },
+  {
+    "name": "Yotpo",
+    "type": "custom",
+    "url": "https://www.yotpo.com/careers/"
   }
 ]
