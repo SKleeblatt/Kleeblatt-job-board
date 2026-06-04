@@ -1,91 +1,770 @@
-# 💼 משרות בקטגוריית SALES
+# Open Positions in Sales
 
-עודכן לאחרונה: 2026-06-04 16:11
+### [Sales and Partner Enablement](https://careers.arm.com/)
+- **Company:** Arm Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
 
-| חברה | משרה | מיקום | קישור |
-| :--- | :--- | :--- | :--- |
-| BioCatch | Technical Account Manager | Check Website | [הגש מועמדות](https://www.biocatch.com/cybersecurity-careers) |
-| BioCatch | Pre-sales Consultant, India | Check Website | [הגש מועמדות](https://www.biocatch.com/cybersecurity-careers) |
-| BioCatch | Sales Account Manager, France | Check Website | [הגש מועמדות](https://www.biocatch.com/cybersecurity-careers) |
-| BioCatch | Senior Sales Account Manager, Germany | Check Website | [הגש מועמדות](https://www.biocatch.com/cybersecurity-careers) |
-| BioCatch | Sales Account Director, Saudi Arabia | Check Website | [הגש מועמדות](https://www.biocatch.com/cybersecurity-careers) |
-| Datadog | Sales Development Representative (France) | Check Website | [הגש מועמדות](https://careers.datadoghq.com/all-jobs/) |
-| Datadog | Manager, Sales Development | Check Website | [הגש מועמדות](https://careers.datadoghq.com/all-jobs/) |
-| Datadog | Manager, Commercial Sales - LATAM (Portuguese-Speaking) | Check Website | [הגש מועמדות](https://careers.datadoghq.com/all-jobs/) |
-| Lendbuzz | Auto Finance Sales Training Lead | Boston, MA | [הגש מועמדות](https://jobs.lever.co/lendbuzz/70a64bb1-0487-4ab4-acdb-df9f47e00170) |
-| Lendbuzz | Bilingual Dealership Account Manager - Fall River, MA | Fall River, MA | [הגש מועמדות](https://jobs.lever.co/lendbuzz/35bfbd4d-33dd-4e3f-9458-dd27ccdb0874) |
-| Lendbuzz | Bilingual Dealership Account Manager - Orlando, FL | Orlando, FL | [הגש מועמדות](https://jobs.lever.co/lendbuzz/91956fe0-bdf9-44e4-be60-e33cca8ecd44) |
-| Lendbuzz | Bilingual Dealership Account Manager - Pensacola, FL | Pensacola, FL | [הגש מועמדות](https://jobs.lever.co/lendbuzz/99b89161-462a-4dfb-90f8-59f037ebf25a) |
-| Lendbuzz | Bilingual Dealership Account Manager - Sarasota, FL | Bradenton, FL | [הגש מועמדות](https://jobs.lever.co/lendbuzz/5e1a2730-c359-47c7-ba18-be81c92c19fc) |
-| Lendbuzz | Bilingual Dealership Account Manager - Tampa, FL | Tampa | [הגש מועמדות](https://jobs.lever.co/lendbuzz/294dc6e7-99ba-4ba0-bd4a-19cb13bc1f13) |
-| Lendbuzz | Dealership Account Manager - Annapolis, MD | Annapolis, MD | [הגש מועמדות](https://jobs.lever.co/lendbuzz/eb67f963-18b9-4c47-8690-a77079d2693f) |
-| Lendbuzz | Dealership Account Manager - Atlanta, GA | Atlanta, GA | [הגש מועמדות](https://jobs.lever.co/lendbuzz/b2227d71-fd54-40ac-b8f8-46bf36a568a3) |
-| Lendbuzz | Dealership Account Manager - Atlantic City, NJ | Atlantic City, NJ | [הגש מועמדות](https://jobs.lever.co/lendbuzz/2dcf07b0-95e9-4468-9e8d-ab0cd2122674) |
-| Lendbuzz | Dealership Account Manager - Baltimore, MD | Baltimore, MD | [הגש מועמדות](https://jobs.lever.co/lendbuzz/22026f27-7e57-4ee7-a910-4d6a66c33444) |
-| Lendbuzz | Dealership Account Manager - Burlington County, NJ | Burlington County, NJ | [הגש מועמדות](https://jobs.lever.co/lendbuzz/c63c896a-1748-4843-ba2f-d969c52f4231) |
-| Lendbuzz | Dealership Account Manager - Charleston, SC | Charleston, SC | [הגש מועמדות](https://jobs.lever.co/lendbuzz/a835304e-9f75-43a5-9906-33ec13ca4bb5) |
-| Lendbuzz | Dealership Account Manager - Charlotte, NC | Charlotte, NC | [הגש מועמדות](https://jobs.lever.co/lendbuzz/555c02e2-de61-4c43-b47c-2cac5f0c0809) |
-| Lendbuzz | Dealership Account Manager - Chicago, IL | Chicago, IL | [הגש מועמדות](https://jobs.lever.co/lendbuzz/e02bab66-e4b2-484f-aaf7-7dc83de3931f) |
-| Lendbuzz | Dealership Account Manager - Columbia, SC | Columbia, SC | [הגש מועמדות](https://jobs.lever.co/lendbuzz/051bce36-8094-4ad4-9e91-818ed38ea25c) |
-| Lendbuzz | Dealership Account Manager - Columbus, OH | Ohio | [הגש מועמדות](https://jobs.lever.co/lendbuzz/f11fb6b6-0bb3-40f1-a1cc-9a66ee5ebe40) |
-| Lendbuzz | Dealership Account Manager - Gloucester Township, NJ | Gloucester Township, NJ | [הגש מועמדות](https://jobs.lever.co/lendbuzz/10804859-0a95-4c4f-a7f9-2e285f78d734) |
-| Lendbuzz | Dealership Account Manager - Harrisburg, PA | Harrisburg, PA | [הגש מועמדות](https://jobs.lever.co/lendbuzz/3cf46820-6423-46df-ab0a-c5036eb30588) |
-| Lendbuzz | Dealership Account Manager - Houston, TX | Houston | [הגש מועמדות](https://jobs.lever.co/lendbuzz/bfc6a6c8-5d1e-4393-8230-659b8404480b) |
-| Lendbuzz | Dealership Account Manager - Indianapolis, IN | Indianapolis, IN | [הגש מועמדות](https://jobs.lever.co/lendbuzz/ea262b25-44a5-426c-bf11-e0b419bd68a1) |
-| Lendbuzz | Dealership Account Manager - Knoxville, TN | Knoxville, TN | [הגש מועמדות](https://jobs.lever.co/lendbuzz/127e9feb-93bb-4574-95da-8d684da4685f) |
-| Lendbuzz | Dealership Account Manager - Las Vegas, NV | Las Vegas, NV | [הגש מועמדות](https://jobs.lever.co/lendbuzz/f51c34a8-ac2d-4123-8b73-6f04c05de2f9) |
-| Lendbuzz | Dealership Account Manager - McDonough, GA | McDonough, GA | [הגש מועמדות](https://jobs.lever.co/lendbuzz/3d5d7062-427f-4a71-859e-a49bf46d73dc) |
-| Lendbuzz | Dealership Account Manager - Philadelphia, PA | Philadelphia, PA | [הגש מועמדות](https://jobs.lever.co/lendbuzz/8357bf29-748f-47b4-8288-6e0d939f4448) |
-| Lendbuzz | Dealership Account Manager - Riverside, CA | Riverside, CA | [הגש מועמדות](https://jobs.lever.co/lendbuzz/2955e9e5-dbbb-4de8-8a30-29f325a52dfd) |
-| Lendbuzz | Dealership Account Manager - Sacramento, CA | Sacramento, California | [הגש מועמדות](https://jobs.lever.co/lendbuzz/a2bcce48-273f-40bc-b631-972a3e2de4a5) |
-| Lendbuzz | Dealership Account Manager - San Francisco, CA | San Francisco | [הגש מועמדות](https://jobs.lever.co/lendbuzz/b29c55e6-2229-4b62-8696-708820b083df) |
-| Lendbuzz | Dealership Account Manager - Scranton, PA | Scranton, PA | [הגש מועמדות](https://jobs.lever.co/lendbuzz/3e0afde6-ae1a-4063-b8db-c43480f68935) |
-| Lendbuzz | Dealership Account Manager - Winston-Salem, NC | Winston-Salem, NC | [הגש מועמדות](https://jobs.lever.co/lendbuzz/72056f3a-7080-4d3c-9451-6f44d3f9fc6b) |
-| Lendbuzz | Dealership Account Manager – Fresno, CA | Fresno, CA | [הגש מועמדות](https://jobs.lever.co/lendbuzz/2f386cb0-d85e-47ac-becb-a98ae6b9c584) |
-| Lendbuzz | Dealership Account Manager – San Diego, CA | San Diego | [הגש מועמדות](https://jobs.lever.co/lendbuzz/a014d177-ab26-4742-9821-ac56c9a530b6) |
-| Lendbuzz | Floorplan Sales Associate | Remote | [הגש מועמדות](https://jobs.lever.co/lendbuzz/5ed02028-50e3-40d6-b56f-cebf72321238) |
-| Lendbuzz | Recourse Account Manager - Fort Lauderdale, FL | Fort Lauderdale, Florida | [הגש מועמדות](https://jobs.lever.co/lendbuzz/b21aa01a-7d8a-46ea-ae66-375079d37eb2) |
-| Lendbuzz | Sales Director - CO, UT, NM | Colorado | [הגש מועמדות](https://jobs.lever.co/lendbuzz/458072d4-8459-4fe6-bc75-7183f6451285) |
-| Lendbuzz | Sales Director - Dallas, TX | Dallas, TX | [הגש מועמדות](https://jobs.lever.co/lendbuzz/530e119b-540f-4002-a78d-e044a2ca86af) |
-| Lendbuzz | Sales Director - IL, IN | Illinois | [הגש מועמדות](https://jobs.lever.co/lendbuzz/0448d617-746c-4d56-bfdf-a57c386e9596) |
-| Lendbuzz | Sales Recruiter | Orlando, FL | [הגש מועמדות](https://jobs.lever.co/lendbuzz/b6d7efef-5543-47c3-b824-1eb735a37b4b) |
-| monday.com | Account Manager, Mid-MarketConsulting (Sales)New York, US | Check Website | [הגש מועמדות](https://monday.com/careers/careers/69.63C) |
-| monday.com | Contact sales | Check Website | [הגש מועמדות](https://monday.com/careers/sales/contact-us?from=footer) |
-| monday.com | Account Executive, Mid-MarketConsulting (Sales)New York, US | Check Website | [הגש מועמדות](https://monday.com/careers/careers/5D.D58) |
-| monday.com | Account Executive, Mid-MarketConsulting (Sales)Denver, US | Check Website | [הגש מועמדות](https://monday.com/careers/careers/5D.D57) |
-| Nimble Way | RevOpsSalesNew York | Check Website | [הגש מועמדות](https://www.nimbleway.com/careers/open-position?revops&uid=BF.56B) |
-| Nimble Way | Senior Solution ConsultantSales & Customer SuccessNew York | Check Website | [הגש מועמדות](https://www.nimbleway.com/careers/open-position?senior-solution-consultant&uid=F8.F53) |
-| Palo Alto Networks | Joining the Palo Alto Networks Germany Sales Team | Check Website | [הגש מועמדות](https://jobs.paloaltonetworks.com/en/search-jobs) |
-| Palo Alto Networks | Five Years in Sales at Palo Alto Networks | Check Website | [הגש מועמדות](https://jobs.paloaltonetworks.com/en/search-jobs) |
-| Palo Alto Networks | Sales Onboarding: From Sweden to Santa Clara, California | Check Website | [הגש מועמדות](https://jobs.paloaltonetworks.com/en/search-jobs) |
-| Palo Alto Networks | Growing My Sales Career with Palo Alto Networks in Italy | Check Website | [הגש מועמדות](https://jobs.paloaltonetworks.com/en/search-jobs) |
-| Palo Alto Networks | Major Account Manager Anne Conquers Germany's Highest Peak | Check Website | [הגש מועמדות](https://jobs.paloaltonetworks.com/en/search-jobs) |
-| Palo Alto Networks | Returning to the Palo Alto Networks Sales Team in Italy | Check Website | [הגש מועמדות](https://jobs.paloaltonetworks.com/en/search-jobs) |
-| Sett | SalesSenior Account ExecutiveTel Aviv-YafoFull-time | Check Website | [הגש מועמדות](https://www.sett.ai/careers/senior-account-executive/74.766/) |
-| Similarweb | Account Executive, Enterprise (French Speaking) | Tel Aviv | [הגש מועמדות](https://job-boards.greenhouse.io/similarweb/jobs/7682363) |
-| Similarweb | Account Executive, Enterprise (French Speaking) | London | [הגש מועמדות](https://job-boards.greenhouse.io/similarweb/jobs/7609985) |
-| Similarweb | Account Executive, SMB | London, England, United Kingdom | [הגש מועמדות](https://job-boards.greenhouse.io/similarweb/jobs/7865837) |
-| Similarweb | Account Manager, Strategic Agencies | London | [הגש מועמדות](https://job-boards.greenhouse.io/similarweb/jobs/7972187) |
-| Similarweb | Business Development Representative | Burlington, MA | [הגש מועמדות](https://job-boards.greenhouse.io/similarweb/jobs/7658589) |
-| Similarweb | Enterprise Account Executive - Data Partnerships | Burlington, MA | [הגש מועמדות](https://job-boards.greenhouse.io/similarweb/jobs/7890937) |
-| Similarweb | Enterprise Account Executive - Data Partnerships | New York, NY | [הגש מועמדות](https://job-boards.greenhouse.io/similarweb/jobs/7003907) |
-| Similarweb | Enterprise Account Manager | Tokyo, Japan | [הגש מועמדות](https://job-boards.greenhouse.io/similarweb/jobs/7865101) |
-| Similarweb | Enterprise Sales Engineer | New York, NY | [הגש מועמדות](https://job-boards.greenhouse.io/similarweb/jobs/7657889) |
-| Similarweb | Inbound Sales Development Representative | Burlington, MA | [הגש מועמדות](https://job-boards.greenhouse.io/similarweb/jobs/4880149) |
-| Similarweb | Inbound Sales Development Representative, APAC | Singapore | [הגש מועמדות](https://job-boards.greenhouse.io/similarweb/jobs/7915628) |
-| Similarweb | Inbound Sales Development Representative, Greater China | Singapore | [הגש מועמדות](https://job-boards.greenhouse.io/similarweb/jobs/7709680) |
-| Similarweb | Sales Development Representative | Tokyo | [הגש מועמדות](https://job-boards.greenhouse.io/similarweb/jobs/7667798) |
-| Similarweb | Sales Development Representative | Burlington, MA | [הגש מועמדות](https://job-boards.greenhouse.io/similarweb/jobs/7658587) |
-| Similarweb | Sales Manager | Tel Aviv-Yafo, Israel | [הגש מועמדות](https://job-boards.greenhouse.io/similarweb/jobs/7894254) |
-| Similarweb | Sales Manager, LATAM | Santiago, Chile | [הגש מועמדות](https://job-boards.greenhouse.io/similarweb/jobs/6596261) |
-| Similarweb | Sales Manager, LATAM | Santiago, Chile | [הגש מועמדות](https://job-boards.greenhouse.io/similarweb/jobs/7832213) |
-| Similarweb | Sales Manager, SMB (Greater China) | Singapore | [הגש מועמדות](https://job-boards.greenhouse.io/similarweb/jobs/7859851) |
-| Similarweb | Senior Enterprise Account Manager, INSEA | Singapore | [הגש מועמדות](https://job-boards.greenhouse.io/similarweb/jobs/7976013) |
-| Similarweb | Strategic Sales Manager - AI & LLM | San Francisco, CA | [הגש מועמדות](https://job-boards.greenhouse.io/similarweb/jobs/7474102) |
-| Similarweb | Strategic Sales Manager - AI & LLM | Seattle, WA | [הגש מועמדות](https://job-boards.greenhouse.io/similarweb/jobs/7663736) |
-| Similarweb | Strategic Sales Manager, AI & LLM | Shanghai | [הגש מועמדות](https://job-boards.greenhouse.io/similarweb/jobs/7390719) |
-| Similarweb | Team Manager, Sales Development (Onsite) | Tokyo | [הגש מועמדות](https://job-boards.greenhouse.io/similarweb/jobs/7920734) |
-| Solitics | VP Sales- Gaming | Israel/Remote | [הגש מועמדות](https://solitics.bamboohr.com/careers///solitics.bamboohr.com/careers/74) |
-| Solitics | VP Sales- Trading | Israel/Remote | [הגש מועמדות](https://solitics.bamboohr.com/careers///solitics.bamboohr.com/careers/75) |
-| Yotpo | London, UKSales Manager, Team Lead | Check Website | [הגש מועמדות](https://www.yotpo.com/careers/gid-7899509/) |
-| Yotpo | Sales Manager, Team Lead | Check Website | [הגש מועמדות](https://www.yotpo.com/careers/) |
+---
+
+### [Sales 1-800-976-6494](https://www.purestorage.com/company/careers.html)
+- **Company:** Pure Storage Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [WW Sales4 Positions](https://www.aquasec.com/about-us/careers/#ww-sales)
+- **Company:** Aqua Security
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Senior Sales EngineerUSA [Remote]  ·  Full-time  ·  Senior](https://www.noma.security/careers/noma.security/careers/co/usa-remote/36.A62/senior-sales-engineer/all)
+- **Company:** Noma Security
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Sales4 open positions](https://www.noma.security/careers)
+- **Company:** Noma Security
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Sales4 open positions](https://www.noma.security/careers)
+- **Company:** Noma Security
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Channel Account Manager - TOLA](https://www.silverfort.com/careers/)
+- **Company:** Silverfort
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Channel Account Manager - TOLA](https://www.silverfort.com/careers/)
+- **Company:** Silverfort
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Commercial Sales Manager-Bay Area](https://www.silverfort.com/careers/)
+- **Company:** Silverfort
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Commercial Sales Manager-Bay Area](https://www.silverfort.com/careers/)
+- **Company:** Silverfort
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Regional Sales  Manager UAE](https://www.silverfort.com/careers/)
+- **Company:** Silverfort
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Regional Sales  Manager UAE](https://www.silverfort.com/careers/)
+- **Company:** Silverfort
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Regional Sales Manager - Houston](https://www.silverfort.com/careers/)
+- **Company:** Silverfort
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Regional Sales Manager - Houston](https://www.silverfort.com/careers/)
+- **Company:** Silverfort
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Regional Sales Manager - Houston](https://www.silverfort.com/careers/)
+- **Company:** Silverfort
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Regional Sales Manager - Houston](https://www.silverfort.com/careers/)
+- **Company:** Silverfort
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Regional Sales Manager - Illinois and Wisconsin](https://www.silverfort.com/careers/)
+- **Company:** Silverfort
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Regional Sales Manager - Illinois and Wisconsin](https://www.silverfort.com/careers/)
+- **Company:** Silverfort
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Regional Sales Manager Italy](https://www.silverfort.com/careers/)
+- **Company:** Silverfort
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Regional Sales Manager Italy](https://www.silverfort.com/careers/)
+- **Company:** Silverfort
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Regional Sales Manager, Florida](https://www.silverfort.com/careers/)
+- **Company:** Silverfort
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Regional Sales Manager, Florida](https://www.silverfort.com/careers/)
+- **Company:** Silverfort
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Sales Development Representative](https://www.silverfort.com/careers/)
+- **Company:** Silverfort
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Sales Development Representative](https://www.silverfort.com/careers/)
+- **Company:** Silverfort
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Sales Development Representative](https://www.silverfort.com/careers/)
+- **Company:** Silverfort
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Sales Development Representative](https://www.silverfort.com/careers/)
+- **Company:** Silverfort
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Sales Development Representative](https://www.silverfort.com/careers/)
+- **Company:** Silverfort
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Sales Development Representative](https://www.silverfort.com/careers/)
+- **Company:** Silverfort
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Sales Engineer - NYC](https://www.silverfort.com/careers/)
+- **Company:** Silverfort
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Sales Engineer - NYC](https://www.silverfort.com/careers/)
+- **Company:** Silverfort
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Technical Account Manager- APACRemote](https://www.island.io/careers/#see-open-positions)
+- **Company:** Island
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Sales Engineer - ChannelRemote US](https://www.island.io/careers/#see-open-positions)
+- **Company:** Island
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Sales Engineer - US Mid MarketDallas HQ](https://www.island.io/careers/#see-open-positions)
+- **Company:** Island
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Technical Account Manager - UKRemote](https://www.island.io/careers/#see-open-positions)
+- **Company:** Island
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [General Applicant - Sales EngineerRemote US](https://www.island.io/careers/#see-open-positions)
+- **Company:** Island
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Salesforce EngineerTel Aviv](https://www.island.io/careers/#see-open-positions)
+- **Company:** Island
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Mid Market Sales RepresentativeDallas HQ](https://www.island.io/careers/#see-open-positions)
+- **Company:** Island
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Technical Account Manager- APACRemote](https://www.island.io/careers/#)
+- **Company:** Island
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Sales Engineer - ChannelRemote US](https://www.island.io/careers/#)
+- **Company:** Island
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Sales Engineer - US Mid MarketDallas HQ](https://www.island.io/careers/#)
+- **Company:** Island
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Technical Account Manager - UKRemote](https://www.island.io/careers/#)
+- **Company:** Island
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [General Applicant - Sales EngineerRemote US](https://www.island.io/careers/#)
+- **Company:** Island
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Salesforce EngineerTel Aviv](https://www.island.io/careers/#)
+- **Company:** Island
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Mid Market Sales RepresentativeDallas HQ](https://www.island.io/careers/#)
+- **Company:** Island
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Sales Engineering](https://www.island.io/careers)
+- **Company:** Island
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Technical Account Manager](https://www.island.io/careers)
+- **Company:** Island
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Customer Services EngineerSalesHybridNA](https://www.comeet.com/jobs/morphisec/65.00C/customer-services-engineer/A1.B6D)
+- **Company:** MorphiSec
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Hybrid
+
+---
+
+### [Sales13 Open Positions](https://join.jfrog.com/positions?gh_department=39295)
+- **Company:** JFrog
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Sales8](https://www.fireblocks.com/careers/)
+- **Company:** Fireblocks
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Business Development & Affiliate Marketing](https://www.etoro.com/about/careers/)
+- **Company:** eToro
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Sales Hub](https://www.hubspot.com/careers)
+- **Company:** HubSpot Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Grow sales and get paid](https://www.hubspot.com/careers)
+- **Company:** HubSpot Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Grow sales and get paid](https://www.hubspot.com/use-case/grow-sales-and-get-paid-faster?hubs_content=www.hubspot.com/careers&hubs_content-cta=nav-solutions-grow)
+- **Company:** HubSpot Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Automate sales prospecting](https://www.hubspot.com/careers)
+- **Company:** HubSpot Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Automate sales prospecting](https://www.hubspot.com/products/sales/ai-prospecting-agent?hubs_content=www.hubspot.com/careers&hubs_content-cta=nav-solutions-prospectagent)
+- **Company:** HubSpot Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Sales Hub](https://www.hubspot.com/careers)
+- **Company:** HubSpot Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Sales role](https://www.intercom.com/careers/sales)
+- **Company:** Intercom Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Fin for Salesforce](https://www.intercom.com/careers/integrations/salesforce)
+- **Company:** Intercom Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Contact sales](https://www.intercom.com/careers/contact-sales)
+- **Company:** Intercom Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Sales role](https://www.intercom.com/careers/sales)
+- **Company:** Intercom Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Fin for Salesforce](https://www.intercom.com/careers/integrations/salesforce)
+- **Company:** Intercom Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Contact sales](https://www.intercom.com/careers/contact-sales)
+- **Company:** Intercom Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Sales Operations Lead, AMERSan Francisco, California](https://jobs.ashbyhq.com/notion/cb4f5e1a-88e4-4259-b73c-ac975dbcde5f)
+- **Company:** Notion Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Account Executive, Business Growth SalesTokyo, Japan](https://jobs.ashbyhq.com/notion/560ce3fc-49b3-4a64-bdc8-0df39f4af269)
+- **Company:** Notion Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Commercial Sales Manager, JapanTokyo, Japan](https://jobs.ashbyhq.com/notion/e95ff317-92fe-4e34-88da-a83fe093f017)
+- **Company:** Notion Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Commercial Sales Manager, KoreaSeoul, South Korea](https://jobs.ashbyhq.com/notion/44b0bcb8-3574-4bf8-b13b-ee2fc57346e9)
+- **Company:** Notion Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Enterprise Sales LeaderSan Francisco, California](https://jobs.ashbyhq.com/notion/7f02bc74-65e8-4b62-a2dc-aee2fa8a3894)
+- **Company:** Notion Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Enterprise Sales Manager, JapanTokyo, Japan](https://jobs.ashbyhq.com/notion/9fe70944-f84f-421c-8168-bbf21d4b4ca4)
+- **Company:** Notion Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Partner Sales Lead, SydneySydney, Australia](https://jobs.ashbyhq.com/notion/fc35163e-e2d2-4741-99d4-ea032911acd7)
+- **Company:** Notion Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Partner Sales Manager, JapanTokyo, Japan](https://jobs.ashbyhq.com/notion/b8bd02a1-3b20-4772-b285-de429cd2a3b9)
+- **Company:** Notion Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Sales Development Representative, JapanTokyo, Japan](https://jobs.ashbyhq.com/notion/c64a2cda-4c84-45bd-823d-f9141c316733)
+- **Company:** Notion Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Sales Development Representative, KoreaSeoul, South Korea](https://jobs.ashbyhq.com/notion/759a9c5a-cdd6-4d05-8eaf-e78eabc34293)
+- **Company:** Notion Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Sales Development Representative, SydneySydney, Australia](https://jobs.ashbyhq.com/notion/6df33d3e-4488-4d0b-a3ae-df3ec48519d5)
+- **Company:** Notion Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Senior Presales Consultant](https://wise.jobs/job/senior-presales-consultant-in-new-york-jid-3296)
+- **Company:** Wise Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [SalesLearn More](https://www.squarespace.com/careers/careers/sales)
+- **Company:** Squarespace Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Account Manager, Commercial](https://www.pandadoc.com/careers/)
+- **Company:** PandaDoc Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Account Manager, Growth (SMB & Commercial)](https://www.pandadoc.com/careers/)
+- **Company:** PandaDoc Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Account Manager, Small Business](https://www.pandadoc.com/careers/)
+- **Company:** PandaDoc Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Contact Sales](https://vimeo.com/careers)
+- **Company:** Vimeo Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Contact Sales](https://vimeo.com/careers)
+- **Company:** Vimeo Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Sales Manager UK – (All Genders)](https://www.smartrecruiters.com/Dailymotion/744000130249179)
+- **Company:** Dailymotion Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Account Manager - USUSAFull-timeRemoteApply Online](https://scaleops.com/careers/scaleops.com/careers/co/usa/94.748/account-manager-us/all)
+- **Company:** ScaleOps
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Sales EnablementUSAFull-timeOn-siteApply Online](https://scaleops.com/careers/scaleops.com/careers/co/usa/53.36A/sales-enablement/all)
+- **Company:** ScaleOps
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Sales Engineer - ILIsraelFull-timeOn-siteApply Online](https://scaleops.com/careers/scaleops.com/careers/co/israel/59.74B/sales-engineer-il/all)
+- **Company:** ScaleOps
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Sales Engineer - LATAMLATAMFull-timeRemoteApply Online](https://scaleops.com/careers/scaleops.com/careers/co/latam/83.362/sales-engineer-latam/all)
+- **Company:** ScaleOps
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Sales Engineer - USAUSAFull-timeRemoteApply Online](https://scaleops.com/careers/scaleops.com/careers/co/usa/69.54E/sales-engineer-usa/all)
+- **Company:** ScaleOps
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Sales – AE](https://www.datarails.com/careers/)
+- **Company:** Datarails
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Account ManagerUnited States](https://www.datarails.com/careers/4184381009/)
+- **Company:** Datarails
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Account Manager](https://www.datarails.com/careers/)
+- **Company:** Datarails
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Sales & Business Development (1)](https://www.explorium.ai/careers/)
+- **Company:** Explorium
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Enterprise Sales Development Representative](https://www.explorium.ai/careers/)
+- **Company:** Explorium
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Pre-Sales Solution Engineer](https://treeverse.io/careers)
+- **Company:** Treeverse
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Channel Sales ManagerBusinessTaipei, TW](https://hailo.ai/company-overview/careers/channel-sales-manager/86.B6D/)
+- **Company:** Hailo
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Channel Sales Manager](https://hailo.ai/careers/)
+- **Company:** Hailo
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Business Development ManagerTel Aviv  ·  Full-time](https://arberobotics.com/careers/arberobotics.com/career/co/business/E9.B60/business-development-manager/all)
+- **Company:** Arbe Robotics
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Commercial & Sales](https://www.novartis.com/careers)
+- **Company:** Novartis Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+

@@ -1,15 +1,82 @@
-# 💼 משרות בקטגוריית PRODUCT
+# Open Positions in Product
 
-עודכן לאחרונה: 2026-06-04 16:11
+### [Senior Product Manager](https://careers.microsoft.com/v2/global/en/locations/israel.html)
+- **Company:** Microsoft Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
 
-| חברה | משרה | מיקום | קישור |
-| :--- | :--- | :--- | :--- |
-| Datadog | Product Manager II, AI & Data Security | Check Website | [הגש מועמדות](https://careers.datadoghq.com/all-jobs/) |
-| Lendbuzz | Senior Product Manager (Contact Center Strategy) | Remote | [הגש מועמדות](https://jobs.lever.co/lendbuzz/0f527496-58d9-4f7c-84b9-9d103a48d1e3) |
-| Nimble Way | Product managerMarketingTel Aviv | Check Website | [הגש מועמדות](https://www.nimbleway.com/careers/#) |
-| Palo Alto Networks | Meet Alexis, a Product Manager in the United States | Check Website | [הגש מועמדות](https://jobs.paloaltonetworks.com/en/search-jobs) |
-| Riverside | Senior Growth Product Manager | Check Website | [הגש מועמדות](https://careers.riverside.com/) |
-| Similarweb | Senior AI Product Manager - Sales Intelligence  | Tel Aviv, Israel | [הגש מועמדות](https://job-boards.greenhouse.io/similarweb/jobs/7571788) |
-| Similarweb | Senior Data Product Manager- Retail Intelligence | Tel Aviv, Israel | [הגש מועמדות](https://job-boards.greenhouse.io/similarweb/jobs/7508300) |
-| Yotpo | Tel-Aviv, ILSenior Product Manager | Check Website | [הגש מועמדות](https://www.yotpo.com/careers/gid-7633905/) |
-| Yotpo | Senior Product Manager | Check Website | [הגש מועמדות](https://www.yotpo.com/careers/) |
+---
+
+### [Product ManagerTel Aviv  ·  Full-time  ·  Senior](https://www.noma.security/careers/noma.security/careers/co/tel-aviv/AB.366/product-manager/all)
+- **Company:** Noma Security
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Senior Product ManagerTel Aviv  ·  Full-time  ·  Senior](https://www.noma.security/careers/noma.security/careers/co/tel-aviv/7C.167/senior-product-manager/all)
+- **Company:** Noma Security
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Product Manager, Crypto](https://www.etoro.com/about/careers/)
+- **Company:** eToro
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Principal Product Manager, Document Domain](https://www.pandadoc.com/careers/)
+- **Company:** PandaDoc Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Product Manager](https://www.qodo.ai/careers/)
+- **Company:** Qodo
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Product ManagerIsraelFull-timeOn-siteApply Online](https://scaleops.com/careers/scaleops.com/careers/co/israel/FC.264/product-manager/all)
+- **Company:** ScaleOps
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Product Manager- USUSAFull-timeRemoteApply Online](https://scaleops.com/careers/scaleops.com/careers/co/usa/96.B6F/product-manager-us/all)
+- **Company:** ScaleOps
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [ProductProduct ManagerRamat Gan, Tel Aviv District, Israel](https://www.pecan.ai/careers/career-job/product-manager/)
+- **Company:** Pecan AI
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+
+### [Product Manager](https://www.pecan.ai/careers/)
+- **Company:** Pecan AI
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+
+---
+

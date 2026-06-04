@@ -1,11 +1,83 @@
-# 💼 משרות בקטגוריית FRONTEND
+# Open Positions in Frontend
 
-עודכן לאחרונה: 2026-06-04 16:11
+### [Senior Frontend DeveloperTel Aviv  ·  Full-time  ·  Senior](https://www.noma.security/careers/noma.security/careers/co/tel-aviv/5E.F5C/senior-frontend-developer/all)
+- **Company:** Noma Security
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+- **Tech:** Not Specified
 
-| חברה | משרה | מיקום | קישור |
-| :--- | :--- | :--- | :--- |
-| BioCatch | Software Engineer - Web SDK | Check Website | [הגש מועמדות](https://www.biocatch.com/cybersecurity-careers) |
-| Yotpo | Tel-Aviv, ILSenior Frontend Engineer | Check Website | [הגש מועמדות](https://www.yotpo.com/careers/gid-7436397/) |
-| Yotpo | Tel-Aviv, ILFrontend Team Leader | Check Website | [הגש מועמדות](https://www.yotpo.com/careers/gid-7691877/) |
-| Yotpo | Frontend Team Leader | Check Website | [הגש מועמדות](https://www.yotpo.com/careers/) |
-| Yotpo | Senior Frontend Engineer | Check Website | [הגש מועמדות](https://www.yotpo.com/careers/) |
+---
+
+### [Senior Frontend Engineer - GlilotGlilot](https://www.island.io/careers/#see-open-positions)
+- **Company:** Island
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+- **Tech:** Not Specified
+
+---
+
+### [Frontend Engineer (FS)Warsaw](https://www.island.io/careers/#see-open-positions)
+- **Company:** Island
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+- **Tech:** Not Specified
+
+---
+
+### [Senior Frontend EngineerTel Aviv](https://www.island.io/careers/#see-open-positions)
+- **Company:** Island
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+- **Tech:** Not Specified
+
+---
+
+### [Senior Frontend Engineer - GlilotGlilot](https://www.island.io/careers/#)
+- **Company:** Island
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+- **Tech:** Not Specified
+
+---
+
+### [Frontend Engineer (FS)Warsaw](https://www.island.io/careers/#)
+- **Company:** Island
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+- **Tech:** Not Specified
+
+---
+
+### [Senior Frontend EngineerTel Aviv](https://www.island.io/careers/#)
+- **Company:** Island
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+- **Tech:** Not Specified
+
+---
+
+### [Senior Front-End (React) Engineer](https://www.smartrecruiters.com/Dailymotion/744000130058280)
+- **Company:** Dailymotion Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+- **Tech:** React
+
+---
+
+### [Frontend DeveloperIsraelOn-siteApply Online](https://scaleops.com/careers/scaleops.com/careers/co/israel/74.94A/frontend-developer/all)
+- **Company:** ScaleOps
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+- **Tech:** Not Specified
+
+---
+

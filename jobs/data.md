@@ -1,20 +1,119 @@
-# 💼 משרות בקטגוריית DATA
+# Open Positions in Data
 
-עודכן לאחרונה: 2026-06-04 16:11
+### [Supply Chain Data AnalystFull-time](https://jobs.smartrecruiters.com/WesternDigital/744000127843499-supply-chain-data-analyst)
+- **Company:** Western Digital Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+- **Tech:** Not Specified
 
-| חברה | משרה | מיקום | קישור |
-| :--- | :--- | :--- | :--- |
-| BioCatch | Data Engineer | Check Website | [הגש מועמדות](https://www.biocatch.com/cybersecurity-careers) |
-| BioCatch | Strategic Fraud Intelligence Analyst | Check Website | [הגש מועמדות](https://www.biocatch.com/cybersecurity-careers) |
-| BioCatch | Threat Analyst, NAM | Check Website | [הגש מועמדות](https://www.biocatch.com/cybersecurity-careers) |
-| BioCatch | Data Analyst | Check Website | [הגש מועמדות](https://www.biocatch.com/cybersecurity-careers) |
-| Lendbuzz | Data Engineer | Tel Aviv | [הגש מועמדות](https://jobs.lever.co/lendbuzz/2dd22f29-bd38-4e61-9f15-f243fdf26e5c) |
-| Nimble Way | Data Engineering Tech LeadEngineeringTel Aviv | Check Website | [הגש מועמדות](https://www.nimbleway.com/careers/open-position?data-engineering-tech-lead&uid=D4.76E) |
-| Similarweb | AI & LLM Data Analyst  (Customer-Facing) | Tel Aviv-Yafo, Israel | [הגש מועמדות](https://job-boards.greenhouse.io/similarweb/jobs/7597693) |
-| Similarweb | Analytics Engineer | Tel Aviv, Israel | [הגש מועמדות](https://job-boards.greenhouse.io/similarweb/jobs/7457556) |
-| Similarweb | Big Data Analyst | Tel Aviv-Yafo | [הגש מועמדות](https://job-boards.greenhouse.io/similarweb/jobs/6897277) |
-| Similarweb | Core Data - Big Data Engineer | Tel Aviv, Israel | [הגש מועמדות](https://job-boards.greenhouse.io/similarweb/jobs/7972320) |
-| Similarweb | Data Analyst | Prague | [הגש מועמדות](https://job-boards.greenhouse.io/similarweb/jobs/6625612) |
-| Similarweb |  Data Engineer | Tel Aviv-Yafo | [הגש מועמדות](https://job-boards.greenhouse.io/similarweb/jobs/7556162) |
-| Similarweb |  Senior Data Engineer ( Data Collection) | Tel Aviv-Yafo | [הגש מועמדות](https://job-boards.greenhouse.io/similarweb/jobs/7911963) |
-| Stampli | Senior Data EngineerTel Aviv  ·  Full-time  ·  Senior | Check Website | [הגש מועמדות](https://www.stampli.com/careers/www.stampli.com/careers/co/tel-aviv/13.76A/senior-data-engineer/all/#13.76A) |
+---
+
+### [Supply Chain Data Analyst](https://careers.smartrecruiters.com/WesternDigital)
+- **Company:** Western Digital Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+- **Tech:** Not Specified
+
+---
+
+### [Data Analytics & Engineering INTERNIntern](https://jobs.smartrecruiters.com/WesternDigital/744000117762538-data-analytics-engineering-intern)
+- **Company:** Western Digital Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+- **Tech:** Not Specified
+
+---
+
+### [Data Analytics & Engineering INTERN](https://careers.smartrecruiters.com/WesternDigital)
+- **Company:** Western Digital Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+- **Tech:** Not Specified
+
+---
+
+### [Supply Chain Data AnalystFull-time](https://jobs.smartrecruiters.com/WesternDigital/744000127843499-supply-chain-data-analyst)
+- **Company:** SanDisk Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+- **Tech:** Not Specified
+
+---
+
+### [Supply Chain Data Analyst](https://careers.smartrecruiters.com/WesternDigital)
+- **Company:** SanDisk Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+- **Tech:** Not Specified
+
+---
+
+### [Data Analytics & Engineering INTERNIntern](https://jobs.smartrecruiters.com/WesternDigital/744000117762538-data-analytics-engineering-intern)
+- **Company:** SanDisk Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+- **Tech:** Not Specified
+
+---
+
+### [Data Analytics & Engineering INTERN](https://careers.smartrecruiters.com/WesternDigital)
+- **Company:** SanDisk Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+- **Tech:** Not Specified
+
+---
+
+### [Data Engineer, Go-To-MarketSan Francisco, California](https://jobs.ashbyhq.com/notion/655b047b-5e58-4b0c-82f0-8c16b2c03318)
+- **Company:** Notion Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+- **Tech:** Go
+
+---
+
+### [Data Engineer, People AnalyticsSan Francisco, California](https://jobs.ashbyhq.com/notion/a1216dba-e175-4a3d-b712-401c9fbdcd92)
+- **Company:** Notion Israel
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+- **Tech:** Not Specified
+
+---
+
+### [Lead Scoring with Predictive Analytics](https://www.pecan.ai/careers/)
+- **Company:** Pecan AI
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+- **Tech:** Not Specified
+
+---
+
+### [Predictive Analytics Solution Engineer](https://www.pecan.ai/careers/)
+- **Company:** Pecan AI
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+- **Tech:** Not Specified
+
+---
+
+### [Senior Data Engineer](https://www.explorium.ai/careers/)
+- **Company:** Explorium
+- **Date:** 2026-06-04
+- **Location:** Israel/Remote
+- **Model:** Remote
+- **Tech:** Not Specified
+
+---
+
