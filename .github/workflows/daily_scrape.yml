@@ -4,7 +4,7 @@ on:
   schedule:
     # ירוץ בכל יום בשעה 08:00 בבוקר (שעון UTC)
     - cron: '0 8 * * *'
-  workflow_dispatch: # מאפשר לך להריץ ידנית מתי שבא לך בלחיצת כפתור בגיטהאב
+  workflow_dispatch: # מאפשר הפעלה ידנית בלחיצת כפתור
 
 permissions:
   contents: write
@@ -12,6 +12,10 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    
+    # הגדרת משתנה סביבה שמאלץ שימוש ב-Node.js 24 ומעלים את האזהרה
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
 
     steps:
       - name: Checkout code
@@ -20,8 +24,8 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10' # שדרוג קל לגרסת פייתון יציבה ומודרנית
-          cache: 'pip' # מאיץ את ההרצות הבאות על ידי שמירת הספריות בזיכרון מטמון
+          python-version: '3.10'
+          cache: 'pip'
 
       - name: Install dependencies
         run: pip install -r requirements.txt
