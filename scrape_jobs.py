@@ -6,10 +6,8 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
 
-# הגדרת תיקיית היעד לקטגוריות
 JOBS_DIR = "jobs"
 
-# מילון קטגוריות ומילות מפתח למיון חכם (לפי סדר עדיפות)
 CATEGORIES = {
     "frontend": ["frontend", "front-end", "front end", "react", "vue", "angular", "ui/ux", "web sdk"],
     "backend": ["backend", "back-end", "back end", "python", "node", "java", "go ", "golang", "ruby"],
@@ -27,7 +25,6 @@ CATEGORIES = {
 }
 
 def categorize_job(title):
-    """מנתח את כותרת המשרה ומשייך אותה לקטגוריה המתאימה ביותר"""
     title_lower = title.lower()
     for category, keywords in CATEGORIES.items():
         for kw in keywords:
@@ -36,7 +33,6 @@ def categorize_job(title):
     return "other"
 
 def is_in_israel(location_text):
-    """בודקת אם המיקום הוא בישראל או שלט רחוק"""
     if not location_text:
         return False
     loc_lower = location_text.lower()
@@ -50,36 +46,36 @@ def is_in_israel(location_text):
 def fetch_greenhouse(company_id):
     url = f"https://boards-api.greenhouse.io/v1/boards/{company_id}/jobs"
     try:
-        response = requests.get(url, timeout=10)
-        if response.status_code == 200:
-            return response.json().get('jobs', [])
+        res = requests.get(url, timeout=10)
+        if res.status_code == 200:
+            return res.json().get('jobs', [])
     except: pass
     return []
 
 def fetch_comeet(company_id):
     url = f"https://www.comeet.co/careers-api/2.0/company/{company_id}/positions?token=&details=true"
     try:
-        response = requests.get(url, timeout=10)
-        if response.status_code == 200:
-            return response.json()
+        res = requests.get(url, timeout=10)
+        if res.status_code == 200:
+            return res.json()
     except: pass
     return []
 
 def fetch_lever(company_id):
     url = f"https://api.lever.co/v0/postings/{company_id}"
     try:
-        response = requests.get(url, timeout=10)
-        if response.status_code == 200:
-            return response.json()
+        res = requests.get(url, timeout=10)
+        if res.status_code == 200:
+            return res.json()
     except: pass
     return []
 
 def fetch_ashby(company_id):
     url = "https://api.ashbyhq.com/react-api/v1/widgets/embed"
     try:
-        response = requests.post(url, json={"organizationId": company_id}, timeout=10)
-        if response.status_code == 200:
-            return response.json().get("jobPostings", [])
+        res = requests.post(url, json={"organizationId": company_id}, timeout=10)
+        if res.status_code == 200:
+            return res.json().get("jobPostings", [])
     except: pass
     return []
 
@@ -87,14 +83,15 @@ def fetch_bamboohr(company_id):
     url = f"https://{company_id}.bamboohr.com/jobs/embed2.php"
     jobs = []
     try:
-        response = requests.get(url, timeout=10)
-        if response.status_code == 200:
-            soup = BeautifulSoup(response.text, 'html.parser')
+        res = requests.get(url, timeout=10)
+        if res.status_code == 200:
+            soup = BeautifulSoup(res.text, 'html.parser')
             for row in soup.select('.BambooHR-ATS-Jobs-Item a'):
+                jid = row.get('href').split('=')[-1]
                 jobs.append({
                     "title": row.get_text(strip=True),
                     "location": "Israel/Remote",
-                    "url": f"https://{company_id}.bamboohr.com/careers/" + row.get('href').split('=')[-1]
+                    "url": f"https://{company_id}.bamboohr.com/careers/" + jid
                 })
     except: pass
     return jobs
@@ -107,23 +104,24 @@ def fetch_custom_site(url):
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True)
             page = browser.new_page()
-            page.set_extra_http_headers({"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"})
+            page.set_extra_http_headers({"User-Agent": "Mozilla/5.0"})
             page.goto(url, wait_until="domcontentloaded", timeout=20000)
             page.wait_for_timeout(3000)
             soup = BeautifulSoup(page.content(), 'html.parser')
             browser.close()
             
-            found_elements = soup.find_all(['a', 'h3', 'h4', 'span'], class_=re.compile(r'job|position|career|title', re.I))
-            for el in found_elements:
+            elements = soup.find_all(['a', 'h3', 'h4', 'span'], class_=re.compile(r'job|position|career|title', re.I))
+            for el in elements:
                 text = el.get_text(strip=True)
-                if 5 < len(text) < 60 and any(kw in text.lower() for kw in ['engineer', 'developer', 'manager', 'specialist', 'analyst', 'vp', 'lead', 'expert', 'architect', 'product', 'sales', 'marketing', 'support', 'qa']):
+                valid_titles = ['engineer', 'developer', 'manager', 'specialist', 'analyst', 'vp', 'lead', 'expert', 'architect', 'product', 'sales', 'marketing', 'support', 'qa']
+                if 5 < len(text) < 60 and any(kw in text.lower() for kw in valid_titles):
                     link = url
                     if el.name == 'a' and el.get('href'):
-                        link = el.get('href') if el.get('href').startswith('http') else url.rstrip('/') + '/' + el.get('href').lstrip('/')
+                        href = el.get('href')
+                        link = href if href.startswith('http') else url.rstrip('/') + '/' + href.lstrip('/')
                     jobs.append({"title": text, "location": "Israel/Remote", "url": link})
             jobs = [dict(t) for t in {tuple(d.items()) for d in jobs}]
-    except Exception as e:
-        print(f"Error custom scanning {url}: {e}")
+    except: pass
     return jobs
 
 # ==========================================
@@ -144,7 +142,6 @@ def main():
 
     categorized_jobs = {cat: [] for cat in CATEGORIES.keys()}
     categorized_jobs["other"] = []
-    
     debug_log = "### 🔍 לוג בדיקה והתקדמות הסריקה:\n"
 
     for company in companies:
@@ -156,12 +153,48 @@ def main():
 
         try:
             if comp_type == 'greenhouse' and comp_id:
-                raw_jobs = fetch_greenhouse(comp_id)
-                for j in raw_jobs:
+                for j in fetch_greenhouse(comp_id):
                     loc = j.get('location', {}).get('name', 'Unknown')
                     if is_in_israel(loc):
                         jobs.append({"title": j['title'], "location": loc, "url": j['absolute_url']})
+                        
             elif comp_type == 'comeet' and comp_id:
-                raw_jobs = fetch_comeet(comp_id)
-                for j in raw_jobs:
-                    loc = j.get('location', {}).get('name', '
+                for j in fetch_comeet(comp_id):
+                    loc = j.get('location', {}).get('name', 'Unknown')
+                    if is_in_israel(loc):
+                        url = j.get('url_active_page') or comp_url
+                        jobs.append({"title": j['name'], "location": loc, "url": url})
+                        
+            elif comp_type == 'lever' and comp_id:
+                for j in fetch_lever(comp_id):
+                    loc = j.get('categories', {}).get('location', 'Unknown')
+                    if is_in_israel(loc):
+                        jobs.append({"title": j['text'], "location": loc, "url": j['hostedUrl']})
+                        
+            elif comp_type == 'ashby' and comp_id:
+                for j in fetch_ashby(comp_id):
+                    loc = j.get('location', 'Unknown')
+                    if is_in_israel(loc):
+                        jobs.append({"title": j.get('title'), "location": loc, "url": j.get('jobUrl')})
+                        
+            elif comp_type == 'bamboohr' and comp_id:
+                for j in fetch_bamboohr(comp_id):
+                    if is_in_israel(j['location']):
+                        jobs.append(j)
+                        
+            elif comp_type == 'custom' or (comp_url and not comp_id):
+                for j in fetch_custom_site(comp_url):
+                    if is_in_israel(j['location']):
+                        jobs.append(j)
+
+            debug_log += f"- **{comp_name}**: נמצאו {len(jobs)} משרות.\n"
+
+            for job in jobs:
+                category = categorize_job(job['title'])
+                categorized_jobs[category].append({
+                    "company": comp_name,
+                    "title": job['title'].replace('|', '-'),
+                    "location": job['location'].replace('|', '-'),
+                    "url": job['url']
+                })
+        except Exception
