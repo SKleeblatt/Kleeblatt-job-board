@@ -8,7 +8,9 @@ from playwright.sync_api import sync_playwright
 
 JOBS_DIR = "jobs"
 
+# מילון קטגוריות מעודכן - כולל הנהגה טכנולוגית (CTO / VP R&D) בראש
 CATEGORIES = {
+    "management tech": ["cto", "vp r&d", "vp rd", "director of r&d", "director of rd", "head of r&d", "head of rd", "vp engineering"],
     "frontend": ["frontend", "front-end", "front end", "react", "vue", "angular", "ui/ux", "web sdk"],
     "backend": ["backend", "back-end", "back end", "python", "node", "java", "go ", "golang", "ruby"],
     "fullstack": ["fullstack", "full-stack", "full stack", "web developer"],
@@ -113,7 +115,7 @@ def fetch_custom_site(url):
             elements = soup.find_all(['a', 'h3', 'h4', 'span'], class_=re.compile(r'job|position|career|title', re.I))
             for el in elements:
                 text = el.get_text(strip=True)
-                valid_titles = ['engineer', 'developer', 'manager', 'specialist', 'analyst', 'vp', 'lead', 'expert', 'architect', 'product', 'sales', 'marketing', 'support', 'qa']
+                valid_titles = ['engineer', 'developer', 'manager', 'specialist', 'analyst', 'vp', 'lead', 'expert', 'architect', 'product', 'sales', 'marketing', 'support', 'qa', 'cto']
                 if 5 < len(text) < 60 and any(kw in text.lower() for kw in valid_titles):
                     link = url
                     if el.name == 'a' and el.get('href'):
@@ -173,28 +175,4 @@ def main():
                         
             elif comp_type == 'ashby' and comp_id:
                 for j in fetch_ashby(comp_id):
-                    loc = j.get('location', 'Unknown')
-                    if is_in_israel(loc):
-                        jobs.append({"title": j.get('title'), "location": loc, "url": j.get('jobUrl')})
-                        
-            elif comp_type == 'bamboohr' and comp_id:
-                for j in fetch_bamboohr(comp_id):
-                    if is_in_israel(j['location']):
-                        jobs.append(j)
-                        
-            elif comp_type == 'custom' or (comp_url and not comp_id):
-                for j in fetch_custom_site(comp_url):
-                    if is_in_israel(j['location']):
-                        jobs.append(j)
-
-            debug_log += f"- **{comp_name}**: נמצאו {len(jobs)} משרות.\n"
-
-            for job in jobs:
-                category = categorize_job(job['title'])
-                categorized_jobs[category].append({
-                    "company": comp_name,
-                    "title": job['title'].replace('|', '-'),
-                    "location": job['location'].replace('|', '-'),
-                    "url": job['url']
-                })
-        except Exception
+                    loc = j.get('location', '
