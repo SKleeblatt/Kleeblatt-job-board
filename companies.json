@@ -1,192 +1,2432 @@
 [
   {
-    "name": "BioCatch",
+    "name": "Microsoft Israel",
     "type": "custom",
-    "url": "https://www.biocatch.com/cybersecurity-careers"
+    "url": "https://careers.microsoft.com/v2/global/en/locations/israel.html"
   },
   {
-    "name": "Bria AI",
+    "name": "Google Israel",
     "type": "custom",
-    "url": "https://ex.bria.ai/career"
+    "url": "https://careers.google.com/locations/tel-aviv/"
   },
   {
-    "name": "Buildots",
+    "name": "Apple Israel",
+    "type": "custom",
+    "url": "https://jobs.apple.com/en-il/search?location=israel-ISR"
+  },
+  {
+    "name": "Meta Israel",
+    "type": "custom",
+    "url": "https://www.metacareers.com/locations/tel-aviv/"
+  },
+  {
+    "name": "NVIDIA Israel",
+    "type": "custom",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite"
+  },
+  {
+    "name": "Intel Israel",
+    "type": "custom",
+    "url": "https://jobs.intel.com/en/location/israel-jobs/411/294640/2"
+  },
+  {
+    "name": "Amazon (AWS) Israel",
+    "type": "custom",
+    "url": "https://amazon.jobs/en/locations/tel-aviv-israel"
+  },
+  {
+    "name": "Salesforce Israel",
+    "type": "custom",
+    "url": "https://www.salesforce.com/company/careers/"
+  },
+  {
+    "name": "Cisco Israel",
+    "type": "custom",
+    "url": "https://jobs.cisco.com/jobs/SearchJobs/?3_11_3=1303"
+  },
+  {
+    "name": "HP Israel",
+    "type": "custom",
+    "url": "https://jobs.hp.com/"
+  },
+  {
+    "name": "IBM Israel",
+    "type": "custom",
+    "url": "https://www.ibm.com/il-he/employment"
+  },
+  {
+    "name": "PayPal Israel",
+    "type": "custom",
+    "url": "https://careers.pypl.com/"
+  },
+  {
+    "name": "Oracle Israel",
+    "type": "custom",
+    "url": "https://careers.oracle.com/"
+  },
+  {
+    "name": "SAP Israel",
+    "type": "custom",
+    "url": "https://jobs.sap.com/"
+  },
+  {
+    "name": "Dell Technologies Israel",
+    "type": "custom",
+    "url": "https://jobs.dell.com/location/israel-jobs/375/294640/2"
+  },
+  {
+    "name": "Qualcomm Israel",
+    "type": "custom",
+    "url": "https://www.qualcomm.com/company/careers"
+  },
+  {
+    "name": "General Motors (GM) Israel",
+    "type": "custom",
+    "url": "https://search-careers.gm.com/il/en"
+  },
+  {
+    "name": "eBay Israel",
+    "type": "custom",
+    "url": "https://jobs.ebayinc.com/"
+  },
+  {
+    "name": "Booking.com Israel",
+    "type": "custom",
+    "url": "https://careers.booking.com/"
+  },
+  {
+    "name": "Uber Israel",
+    "type": "custom",
+    "url": "https://www.uber.com/il/he/careers/"
+  },
+  {
+    "name": "ServiceNow Israel",
+    "type": "custom",
+    "url": "https://careers.servicenow.com/"
+  },
+  {
+    "name": "VMware Israel",
+    "type": "custom",
+    "url": "https://careers.vmware.com/"
+  },
+  {
+    "name": "Yahoo Israel",
+    "type": "custom",
+    "url": "https://www.yahooinc.com/careers"
+  },
+  {
+    "name": "Philips Healthcare Israel",
+    "type": "custom",
+    "url": "https://www.careers.philips.com/global/en/israel"
+  },
+  {
+    "name": "Siemens Israel",
+    "type": "custom",
+    "url": "https://jobs.siemens.com/"
+  },
+  {
+    "name": "Applied Materials Israel",
+    "type": "custom",
+    "url": "https://www.appliedmaterials.com/us/en/careers.html"
+  },
+  {
+    "name": "Marvell Israel",
+    "type": "custom",
+    "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers"
+  },
+  {
+    "name": "Broadcom Israel",
+    "type": "custom",
+    "url": "https://broadcom.wd1.myworkdayjobs.com/External_Career"
+  },
+  {
+    "name": "Sony Semiconductor Israel",
+    "type": "custom",
+    "url": "https://www.sony-semicon.co.il/careers/"
+  },
+  {
+    "name": "Red Hat Israel",
+    "type": "custom",
+    "url": "https://www.redhat.com/en/jobs"
+  },
+  {
+    "name": "Autodesk Israel",
+    "type": "custom",
+    "url": "https://www.autodesk.com/careers"
+  },
+  {
+    "name": "Akamai Israel",
+    "type": "custom",
+    "url": "https://www.akamai.com/careers"
+  },
+  {
+    "name": "Palo Alto Networks Israel",
+    "type": "custom",
+    "url": "https://jobs.paloaltonetworks.com/en/locations/israel/"
+  },
+  {
+    "name": "Splunk Israel",
+    "type": "custom",
+    "url": "https://www.splunk.com/en_us/careers.html"
+  },
+  {
+    "name": "Synopsys Israel",
+    "type": "custom",
+    "url": "https://www.synopsys.com/careers.html"
+  },
+  {
+    "name": "Cadence Design Systems Israel",
+    "type": "custom",
+    "url": "https://cadence.wd1.myworkdayjobs.com/External_Careers"
+  },
+  {
+    "name": "Samsung Israel (SIRC)",
+    "type": "custom",
+    "url": "https://www.samsungisrael.co.il/careers"
+  },
+  {
+    "name": "AT&T Foundry Israel",
+    "type": "custom",
+    "url": "https://www.att.jobs/"
+  },
+  {
+    "name": "Verizon Israel",
+    "type": "custom",
+    "url": "https://www.verizon.com/about/careers"
+  },
+  {
+    "name": "Amadeus Israel",
+    "type": "custom",
+    "url": "https://jobs.amadeus.com/"
+  },
+  {
+    "name": "Taboola",
+    "type": "custom",
+    "url": "https://www.taboola.com/careers"
+  },
+  {
+    "name": "Outbrain",
+    "type": "custom",
+    "url": "https://www.outbrain.com/careers/"
+  },
+  {
+    "name": "Logitech Israel",
+    "type": "custom",
+    "url": "https://www.logitech.com/en-us/about/careers.html"
+  },
+  {
+    "name": "Western Digital Israel",
+    "type": "custom",
+    "url": "https://careers.smartrecruiters.com/WesternDigital"
+  },
+  {
+    "name": "SanDisk Israel",
+    "type": "custom",
+    "url": "https://careers.smartrecruiters.com/WesternDigital"
+  },
+  {
+    "name": "KLA Israel",
+    "type": "custom",
+    "url": "https://www.kla.com/careers"
+  },
+  {
+    "name": "Lam Research Israel",
+    "type": "custom",
+    "url": "https://careers.lamresearch.com/"
+  },
+  {
+    "name": "Texas Instruments Israel",
+    "type": "custom",
+    "url": "https://careers.ti.com/"
+  },
+  {
+    "name": "NXP Semiconductors Israel",
+    "type": "custom",
+    "url": "https://nxp.wd3.myworkdayjobs.com/careers"
+  },
+  {
+    "name": "Analog Devices Israel",
+    "type": "custom",
+    "url": "https://www.analog.com/en/about-adi/careers.html"
+  },
+  {
+    "name": "STMicroelectronics Israel",
+    "type": "custom",
+    "url": "https://stcareers.st.com/"
+  },
+  {
+    "name": "Infineon Technologies Israel",
+    "type": "custom",
+    "url": "https://www.infineon.com/cms/en/careers/"
+  },
+  {
+    "name": "Renesas Electronics Israel",
+    "type": "custom",
+    "url": "https://www.renesas.com/us/en/about/careers"
+  },
+  {
+    "name": "Microchip Technology Israel",
+    "type": "custom",
+    "url": "https://careers.microchip.com/"
+  },
+  {
+    "name": "Arm Israel",
+    "type": "custom",
+    "url": "https://careers.arm.com/"
+  },
+  {
+    "name": "ASML Israel",
+    "type": "custom",
+    "url": "https://www.asml.com/en/careers"
+  },
+  {
+    "name": "Flex Israel",
+    "type": "custom",
+    "url": "https://flex.com/careers"
+  },
+  {
+    "name": "Jabil Israel",
+    "type": "custom",
+    "url": "https://www.jabil.com/about-us/careers.html"
+  },
+  {
+    "name": "Foxconn Israel",
+    "type": "custom",
+    "url": "https://www.foxconn.com/en-us/careers"
+  },
+  {
+    "name": "Huawei Israel",
+    "type": "custom",
+    "url": "https://career.huawei.com/"
+  },
+  {
+    "name": "ZTE Israel",
+    "type": "custom",
+    "url": "https://resumes.zte.com.cn/"
+  },
+  {
+    "name": "Lenovo Israel",
+    "type": "custom",
+    "url": "https://jobs.lenovo.com/"
+  },
+  {
+    "name": "Hewlett Packard Enterprise (HPE) Israel",
+    "type": "custom",
+    "url": "https://careers.hpe.com/"
+  },
+  {
+    "name": "DXC Technology Israel",
+    "type": "custom",
+    "url": "https://careers.dxc.com/"
+  },
+  {
+    "name": "Cognizant Israel",
+    "type": "custom",
+    "url": "https://careers.cognizant.com/global/en"
+  },
+  {
+    "name": "EPAM Systems Israel",
+    "type": "custom",
+    "url": "https://www.epam.com/careers"
+  },
+  {
+    "name": "Luxoft Israel",
+    "type": "custom",
+    "url": "https://www.luxoft.com/careers"
+  },
+  {
+    "name": "GlobalLogic Israel",
+    "type": "custom",
+    "url": "https://www.globallogic.com/careers/"
+  },
+  {
+    "name": "Virtusa Israel",
+    "type": "custom",
+    "url": "https://www.virtusa.com/careers"
+  },
+  {
+    "name": "Fujitsu Israel",
+    "type": "custom",
+    "url": "https://www.fujitsu.com/global/about/careers/"
+  },
+  {
+    "name": "NEC Israel",
+    "type": "custom",
+    "url": "https://www.nec.com/en/global/careers/"
+  },
+  {
+    "name": "Hitachi Israel",
+    "type": "custom",
+    "url": "https://www.hitachi.com/careers/"
+  },
+  {
+    "name": "Toshiba Israel",
+    "type": "custom",
+    "url": "https://www.toshiba.co.jp/career/en/"
+  },
+  {
+    "name": "Panasonic Israel",
+    "type": "custom",
+    "url": "https://careers.panasonic.com/"
+  },
+  {
+    "name": "Sony Israel",
+    "type": "custom",
+    "url": "https://www.sony.net/SonyInfo/Careers/"
+  },
+  {
+    "name": "LG Electronics Israel",
+    "type": "custom",
+    "url": "https://www.lg.com/global/careers"
+  },
+  {
+    "name": "Asus Israel",
+    "type": "custom",
+    "url": "https://www.asus.com/about-asus/careers/"
+  },
+  {
+    "name": "Acer Israel",
+    "type": "custom",
+    "url": "https://www.acer-group.com/ag/en/share/careers.htm"
+  },
+  {
+    "name": "Juniper Networks Israel",
+    "type": "custom",
+    "url": "https://careers.juniper.net/"
+  },
+  {
+    "name": "Arista Networks Israel",
+    "type": "custom",
+    "url": "https://www.arista.com/en/careers"
+  },
+  {
+    "name": "F5 Networks Israel",
+    "type": "custom",
+    "url": "https://careers.f5.com/"
+  },
+  {
+    "name": "Citrix Israel",
+    "type": "custom",
+    "url": "https://careers.citrix.com/"
+  },
+  {
+    "name": "NetApp Israel",
+    "type": "custom",
+    "url": "https://careers.netapp.com/"
+  },
+  {
+    "name": "Pure Storage Israel",
+    "type": "custom",
+    "url": "https://www.purestorage.com/company/careers.html"
+  },
+  {
+    "name": "Nutanix Israel",
+    "type": "custom",
+    "url": "https://www.nutanix.com/careers"
+  },
+  {
+    "name": "Veeam Software Israel",
+    "type": "custom",
+    "url": "https://careers.veeam.com/"
+  },
+  {
+    "name": "Commvault Israel",
+    "type": "custom",
+    "url": "https://careers.commvault.com/"
+  },
+  {
+    "name": "Veritas Technologies Israel",
+    "type": "custom",
+    "url": "https://www.veritas.com/company/careers"
+  },
+  {
+    "name": "Micro Focus Israel",
+    "type": "custom",
+    "url": "https://jobs.microfocus.com/"
+  },
+  {
+    "name": "OpenText Israel",
+    "type": "custom",
+    "url": "https://careers.opentext.com/"
+  },
+  {
+    "name": "Adobe Israel",
+    "type": "custom",
+    "url": "https://careers.adobe.com/"
+  },
+  {
+    "name": "MathWorks Israel",
+    "type": "custom",
+    "url": "https://www.mathworks.com/company/jobs/opportunities.html"
+  },
+  {
+    "name": "Check Point",
+    "type": "custom",
+    "url": "https://careers.checkpoint.com/"
+  },
+  {
+    "name": "CyberArk",
+    "type": "custom",
+    "url": "https://www.cyberark.com/careers/"
+  },
+  {
+    "name": "Wiz",
     "type": "comeet",
-    "id": "buildots"
+    "id": "wiz"
   },
   {
-    "name": "Bulwarx",
+    "name": "Cato Networks",
     "type": "custom",
-    "url": "https://www.bulwarx.com/careers"
+    "url": "https://www.catonetworks.com/careers/"
   },
   {
-    "name": "Chargeflow",
+    "name": "Torq",
     "type": "custom",
-    "url": "https://www.linkedin.com/company/chargeflowhq/"
+    "url": "https://torq.io/careers/"
   },
   {
-    "name": "Datadog",
+    "name": "Snyk",
     "type": "custom",
-    "url": "https://careers.datadoghq.com/all-jobs/"
+    "url": "https://snyk.io/careers/"
   },
   {
-    "name": "DriveNets",
+    "name": "Aqua Security",
     "type": "custom",
-    "url": "https://forms.gle/NE9TnZyJixjDwnur6"
+    "url": "https://www.aquasec.com/careers/"
   },
   {
-    "name": "Electreon Wireless",
+    "name": "Orca Security",
     "type": "custom",
-    "url": "https://electreon.com/about-us/careers"
+    "url": "https://orca.security/careers/"
   },
   {
-    "name": "Elementor",
+    "name": "SentinelOne",
     "type": "custom",
-    "url": "https://elementor.careers/explore/"
+    "url": "https://www.sentinelone.com/careers/"
   },
   {
-    "name": "Gong",
+    "name": "Axonius",
     "type": "custom",
-    "url": "https://gong.teamme.link/"
+    "url": "https://www.axonius.com/careers"
   },
   {
-    "name": "HoneyBook",
-    "type": "ashby",
-    "id": "honeybook"
-  },
-  {
-    "name": "HP Indigo",
+    "name": "Apiiro",
     "type": "custom",
-    "url": "https://www.linkedin.com/jobs/search/?f_C=5390798"
+    "url": "https://apiiro.com/careers/"
   },
   {
-    "name": "Imagen AI",
+    "name": "Noma Security",
     "type": "custom",
-    "url": "https://imagen-ai.com/careers/"
+    "url": "https://www.noma.security/careers"
   },
   {
-    "name": "Intezer",
+    "name": "Salt Security",
     "type": "custom",
-    "url": "https://intezer.com/jobs/"
+    "url": "https://salt.security/careers"
   },
   {
-    "name": "Kela Technologies",
-    "type": "comeet",
-    "id": "kelatechnologies"
-  },
-  {
-    "name": "Lendbuzz",
-    "type": "lever",
-    "id": "lendbuzz"
-  },
-  {
-    "name": "Mobileye",
-    "type": "lever",
-    "id": "mobileye"
-  },
-  {
-    "name": "monday.com",
+    "name": "Noname Security (Akamai)",
     "type": "custom",
-    "url": "https://monday.com/careers"
+    "url": "https://nonamesecurity.com/careers"
   },
   {
-    "name": "Nimble Way",
+    "name": "Claroty",
     "type": "custom",
-    "url": "https://www.nimbleway.com/careers"
+    "url": "https://claroty.com/careers"
   },
   {
-    "name": "Nortech-Network",
+    "name": "Pentera",
     "type": "custom",
-    "url": "https://nortech-platform.com/explore/?type=job"
-  },
-  {
-    "name": "Palo Alto Networks",
-    "type": "custom",
-    "url": "https://jobs.paloaltonetworks.com/en/search-jobs"
-  },
-  {
-    "name": "Papaya Gaming",
-    "type": "custom",
-    "url": "https://www.papaya.com/careers"
-  },
-  {
-    "name": "Reeco",
-    "type": "custom",
-    "url": "https://www.linkedin.com/jobs/view/4393900883/"
-  },
-  {
-    "name": "Riverside",
-    "type": "custom",
-    "url": "https://careers.riverside.com/"
-  },
-  {
-    "name": "Sensi.AI",
-    "type": "comeet",
-    "id": "sensi"
-  },
-  {
-    "name": "Sett",
-    "type": "custom",
-    "url": "https://www.sett.ai/careers/"
+    "url": "https://pentera.io/careers/"
   },
   {
     "name": "Silverfort",
-    "type": "comeet",
-    "id": "silverfort"
-  },
-  {
-    "name": "Similarweb",
-    "type": "greenhouse",
-    "id": "similarweb"
-  },
-  {
-    "name": "SNF AI",
     "type": "custom",
-    "url": "https://snfai.homerun.co/full-stack-engineer/en"
+    "url": "https://www.silverfort.com/careers/"
   },
   {
-    "name": "Solitics",
-    "type": "bamboohr",
-    "id": "solitics"
-  },
-  {
-    "name": "Spear UAV",
+    "name": "Cybereason",
     "type": "custom",
-    "url": "https://spearuav.com"
+    "url": "https://www.cybereason.com/careers"
   },
   {
-    "name": "Stampli",
+    "name": "Deep Instinct",
     "type": "custom",
-    "url": "https://www.stampli.com/careers/"
+    "url": "https://www.deepinstinct.com/careers"
+  },
+  {
+    "name": "BigID",
+    "type": "custom",
+    "url": "https://bigid.com/careers/"
+  },
+  {
+    "name": "Grip Security",
+    "type": "custom",
+    "url": "https://www.grip.security/careers"
+  },
+  {
+    "name": "Island",
+    "type": "custom",
+    "url": "https://www.island.io/careers"
+  },
+  {
+    "name": "Talon Cyber Security (Palo Alto)",
+    "type": "custom",
+    "url": "https://www.talon-cyber.com/careers"
+  },
+  {
+    "name": "Sweet Security",
+    "type": "custom",
+    "url": "https://www.sweet.security/careers"
+  },
+  {
+    "name": "Ondo Security",
+    "type": "custom",
+    "url": "https://www.ondo.com/careers"
+  },
+  {
+    "name": "Zafran Security",
+    "type": "custom",
+    "url": "https://www.zafran.io/careers"
+  },
+  {
+    "name": "Mitiga",
+    "type": "custom",
+    "url": "https://www.mitiga.io/careers"
+  },
+  {
+    "name": "Enso Security",
+    "type": "custom",
+    "url": "https://enso.security/careers"
+  },
+  {
+    "name": "DoControl",
+    "type": "custom",
+    "url": "https://www.docontrol.io/careers"
+  },
+  {
+    "name": "Wing Security",
+    "type": "custom",
+    "url": "https://wing.security/careers/"
+  },
+  {
+    "name": "Polar Security",
+    "type": "custom",
+    "url": "https://polar.security/careers"
+  },
+  {
+    "name": "Cider Security",
+    "type": "custom",
+    "url": "https://cidersecurity.io/careers"
+  },
+  {
+    "name": "Bionic (CrowdStrike)",
+    "type": "custom",
+    "url": "https://www.bionic.ai/careers"
+  },
+  {
+    "name": "Sternum IoT",
+    "type": "custom",
+    "url": "https://sternumiot.com/careers/"
+  },
+  {
+    "name": "Flow Security",
+    "type": "custom",
+    "url": "https://www.flow.security/careers"
+  },
+  {
+    "name": "Cyberpion (IONIX)",
+    "type": "custom",
+    "url": "https://ionix.io/careers/"
+  },
+  {
+    "name": "Hunters",
+    "type": "custom",
+    "url": "https://www.hunters.security/careers"
+  },
+  {
+    "name": "MorphiSec",
+    "type": "custom",
+    "url": "https://www.morphisec.com/careers"
+  },
+  {
+    "name": "Illusive Networks",
+    "type": "custom",
+    "url": "https://illusivenetworks.com/careers"
+  },
+  {
+    "name": "Perimeter 81",
+    "type": "custom",
+    "url": "https://www.perimeter81.com/careers"
+  },
+  {
+    "name": "Ktrust",
+    "type": "custom",
+    "url": "https://ktrust.io/careers"
+  },
+  {
+    "name": "Laminar (Rubrik)",
+    "type": "custom",
+    "url": "https://laminar.security/careers"
+  },
+  {
+    "name": "Legit Security",
+    "type": "custom",
+    "url": "https://www.legitsecurity.com/careers"
+  },
+  {
+    "name": "Vulcan Cyber",
+    "type": "custom",
+    "url": "https://vulcan.io/careers/"
+  },
+  {
+    "name": "XM Cyber",
+    "type": "custom",
+    "url": "https://xmcyber.com/careers/"
   },
   {
     "name": "Transmit Security",
     "type": "custom",
-    "url": "https://transmitsecurity.com/about/careers"
+    "url": "https://www.transmitsecurity.com/careers"
   },
   {
-    "name": "UVeye",
+    "name": "Gyrfalcon",
     "type": "custom",
-    "url": "https://uveye.com/careers/"
+    "url": "https://www.gyrfalcon.com/careers"
   },
   {
-    "name": "Varonis",
+    "name": "Cymulate",
     "type": "custom",
-    "url": "https://www.varonis.com/careers"
+    "url": "https://cymulate.com/careers/"
   },
   {
-    "name": "vHive",
+    "name": "SafeBreach",
     "type": "custom",
-    "url": "https://www.vhive.ai/careers/full-stack-team-lead-engineering-israel"
+    "url": "https://safebreach.com/careers/"
   },
   {
-    "name": "Viber",
+    "name": "Devo Israel",
     "type": "custom",
-    "url": "https://www.viber.com/en/careers/"
+    "url": "https://www.devo.com/careers/"
+  },
+  {
+    "name": "Radware",
+    "type": "custom",
+    "url": "https://www.radware.com/careers/"
+  },
+  {
+    "name": "Allot Communications",
+    "type": "custom",
+    "url": "https://www.allot.com/careers/"
+  },
+  {
+    "name": "Skybox Security",
+    "type": "custom",
+    "url": "https://www.skyboxsecurity.com/careers/"
+  },
+  {
+    "name": "Tufin",
+    "type": "custom",
+    "url": "https://www.tufin.com/careers"
+  },
+  {
+    "name": "Indegy (Tenables)",
+    "type": "custom",
+    "url": "https://www.tenable.com/careers"
+  },
+  {
+    "name": "SCADAfence",
+    "type": "custom",
+    "url": "https://www.scadafence.com/careers"
+  },
+  {
+    "name": "Othentic",
+    "type": "custom",
+    "url": "https://othentic.com/careers"
+  },
+  {
+    "name": "Vicarius",
+    "type": "custom",
+    "url": "https://www.vicarius.io/careers"
+  },
+  {
+    "name": "Frontier Security",
+    "type": "custom",
+    "url": "https://www.frontier.security/careers"
+  },
+  {
+    "name": "Ciseco",
+    "type": "custom",
+    "url": "https://www.ciseco.com/careers"
+  },
+  {
+    "name": "ShieldX",
+    "type": "custom",
+    "url": "https://www.shieldx.com/careers"
+  },
+  {
+    "name": "Luminate Security",
+    "type": "custom",
+    "url": "https://www.luminate.com/careers"
+  },
+  {
+    "name": "Secdo",
+    "type": "custom",
+    "url": "https://secdo.com/careers"
+  },
+  {
+    "name": "Aorato",
+    "type": "custom",
+    "url": "https://aorato.com/careers"
+  },
+  {
+    "name": "Adallom",
+    "type": "custom",
+    "url": "https://adallom.com/careers"
+  },
+  {
+    "name": "CloudLock",
+    "type": "custom",
+    "url": "https://www.cloudlock.com/careers"
+  },
+  {
+    "name": "Demisto",
+    "type": "custom",
+    "url": "https://www.demisto.com/careers"
+  },
+  {
+    "name": "Twistlock",
+    "type": "custom",
+    "url": "https://www.twistlock.com/careers"
+  },
+  {
+    "name": "PureSec",
+    "type": "custom",
+    "url": "https://www.puresec.io/careers"
+  },
+  {
+    "name": "SecBI",
+    "type": "custom",
+    "url": "https://www.secbi.com/careers"
+  },
+  {
+    "name": "CyberX",
+    "type": "custom",
+    "url": "https://cyberx-labs.com/careers"
+  },
+  {
+    "name": "Portshift",
+    "type": "custom",
+    "url": "https://www.portshift.io/careers"
+  },
+  {
+    "name": "IntSights",
+    "type": "custom",
+    "url": "https://intsights.com/careers"
+  },
+  {
+    "name": "Siemplify",
+    "type": "custom",
+    "url": "https://www.siemplify.co/careers"
+  },
+  {
+    "name": "Guardicore",
+    "type": "custom",
+    "url": "https://www.guardicore.com/careers"
+  },
+  {
+    "name": "Argus Cyber Security",
+    "type": "custom",
+    "url": "https://argus-sec.com/careers/"
+  },
+  {
+    "name": "Karamba Security",
+    "type": "custom",
+    "url": "https://karambasecurity.com/careers"
+  },
+  {
+    "name": "Regulus Cyber",
+    "type": "custom",
+    "url": "https://www.reguluscyber.com/careers"
+  },
+  {
+    "name": "Cysiv",
+    "type": "custom",
+    "url": "https://www.cysiv.com/careers"
+  },
+  {
+    "name": "Satori",
+    "type": "custom",
+    "url": "https://satoricyber.com/careers/"
+  },
+  {
+    "name": "Eureka Security",
+    "type": "custom",
+    "url": "https://www.eureka.security/careers"
+  },
+  {
+    "name": "Dig Security",
+    "type": "custom",
+    "url": "https://www.dig.security/careers"
+  },
+  {
+    "name": "Sentra",
+    "type": "custom",
+    "url": "https://www.sentra.io/careers"
+  },
+  {
+    "name": "Chariot",
+    "type": "custom",
+    "url": "https://www.chariot.security/careers"
+  },
+  {
+    "name": "Descope",
+    "type": "custom",
+    "url": "https://www.descope.com/careers"
+  },
+  {
+    "name": "Oasis Security",
+    "type": "custom",
+    "url": "https://www.oasis.security/careers"
+  },
+  {
+    "name": "Astrix Security",
+    "type": "custom",
+    "url": "https://astrix.security/careers/"
+  },
+  {
+    "name": "Spera Security",
+    "type": "custom",
+    "url": "https://spera.security/careers"
+  },
+  {
+    "name": "Alinea Cyber",
+    "type": "custom",
+    "url": "https://www.alinea.security/careers"
+  },
+  {
+    "name": "Nudge Security",
+    "type": "custom",
+    "url": "https://www.nudgesecurity.com/careers"
+  },
+  {
+    "name": "Brimon",
+    "type": "custom",
+    "url": "https://www.brimon.com/careers"
+  },
+  {
+    "name": "Zero Networks",
+    "type": "custom",
+    "url": "https://zeronetworks.com/careers/"
+  },
+  {
+    "name": "Kmeleon",
+    "type": "custom",
+    "url": "https://www.kmeleon.io/careers"
+  },
+  {
+    "name": "Reason Labs",
+    "type": "custom",
+    "url": "https://reasonlabs.com/careers"
+  },
+  {
+    "name": "Odix",
+    "type": "custom",
+    "url": "https://www.odi-x.com/careers/"
+  },
+  {
+    "name": "HUB Security",
+    "type": "custom",
+    "url": "https://hubsecurity.com/careers/"
+  },
+  {
+    "name": "Bufferzone",
+    "type": "custom",
+    "url": "https://bufferzonesecurity.com/careers/"
+  },
+  {
+    "name": "CommuniTake",
+    "type": "custom",
+    "url": "https://www.communitake.com/careers"
+  },
+  {
+    "name": "Terafence",
+    "type": "custom",
+    "url": "https://www.terafence.com/careers"
+  },
+  {
+    "name": "Votiro",
+    "type": "custom",
+    "url": "https://votiro.com/careers/"
+  },
+  {
+    "name": "Solebit",
+    "type": "custom",
+    "url": "https://solebit.labs/careers"
+  },
+  {
+    "name": "CyberInt",
+    "type": "custom",
+    "url": "https://cyberint.com/careers/"
+  },
+  {
+    "name": "BrandShield",
+    "type": "custom",
+    "url": "https://www.brandshield.com/careers"
+  },
+  {
+    "name": "Segasec",
+    "type": "custom",
+    "url": "https://segasec.com/careers"
+  },
+  {
+    "name": "Sixgill",
+    "type": "custom",
+    "url": "https://cybersixgill.com/careers/"
+  },
+  {
+    "name": "Cobwebs Technologies",
+    "type": "custom",
+    "url": "https://cobwebs.com/careers/"
+  },
+  {
+    "name": "Webselerator",
+    "type": "custom",
+    "url": "https://www.webselerator.com/careers"
+  },
+  {
+    "name": "Imvision",
+    "type": "custom",
+    "url": "https://imvision.ai/careers"
+  },
+  {
+    "name": "Neosec",
+    "type": "custom",
+    "url": "https://www.neosec.com/careers"
+  },
+  {
+    "name": "Traceable AI Israel",
+    "type": "custom",
+    "url": "https://www.traceable.ai/careers"
+  },
+  {
+    "name": "Wallarm Israel",
+    "type": "custom",
+    "url": "https://www.wallarm.com/careers"
+  },
+  {
+    "name": "FireGlass",
+    "type": "custom",
+    "url": "https://fireglass.com/careers"
+  },
+  {
+    "name": "LightCyber",
+    "type": "custom",
+    "url": "https://lightcyber.com/careers"
+  },
+  {
+    "name": "Seculert",
+    "type": "custom",
+    "url": "https://seculert.com/careers"
+  },
+  {
+    "name": "Skyfence",
+    "type": "custom",
+    "url": "https://skyfence.com/careers"
+  },
+  {
+    "name": "Lacoon Mobile Security",
+    "type": "custom",
+    "url": "https://lacoon.com/careers"
+  },
+  {
+    "name": "Checkmarx",
+    "type": "custom",
+    "url": "https://checkmarx.com/careers/"
+  },
+  {
+    "name": "WhiteSource (Mend)",
+    "type": "custom",
+    "url": "https://www.mend.io/careers/"
+  },
+  {
+    "name": "Wix",
+    "type": "custom",
+    "url": "https://www.wix.com/careers"
+  },
+  {
+    "name": "Monday.com",
+    "type": "greenhouse",
+    "id": "mondaydotcom"
+  },
+  {
+    "name": "Gong.io",
+    "type": "custom",
+    "url": "https://www.gong.io/careers/"
+  },
+  {
+    "name": "Melio",
+    "type": "custom",
+    "url": "https://www.meliopayments.com/careers"
+  },
+  {
+    "name": "HiBob",
+    "type": "lever",
+    "id": "hibob"
+  },
+  {
+    "name": "Similarweb",
+    "type": "custom",
+    "url": "https://www.similarweb.com/corp/careers/"
+  },
+  {
+    "name": "JFrog",
+    "type": "custom",
+    "url": "https://jfrog.com/careers/"
+  },
+  {
+    "name": "Payoneer",
+    "type": "custom",
+    "url": "https://www.payoneer.com/careers/"
+  },
+  {
+    "name": "Riskified",
+    "type": "custom",
+    "url": "https://www.riskified.com/careers/"
+  },
+  {
+    "name": "Fiverr",
+    "type": "greenhouse",
+    "id": "fiverr"
+  },
+  {
+    "name": "AppsFlyer",
+    "type": "custom",
+    "url": "https://www.appsflyer.com/careers/"
+  },
+  {
+    "name": "WalkMe",
+    "type": "custom",
+    "url": "https://www.walkme.com/careers/"
+  },
+  {
+    "name": "Papaya Global",
+    "type": "custom",
+    "url": "https://www.papayaglobal.com/careers/"
+  },
+  {
+    "name": "Tipalti",
+    "type": "custom",
+    "url": "https://tipalti.com/careers/"
   },
   {
     "name": "Yotpo",
     "type": "custom",
     "url": "https://www.yotpo.com/careers/"
+  },
+  {
+    "name": "Sisense",
+    "type": "custom",
+    "url": "https://www.sisense.com/careers/"
+  },
+  {
+    "name": "Kaltura",
+    "type": "custom",
+    "url": "https://corp.kaltura.com/company/careers/"
+  },
+  {
+    "name": "Playtika",
+    "type": "custom",
+    "url": "https://www.playtika.com/careers/"
+  },
+  {
+    "name": "Moon Active",
+    "type": "custom",
+    "url": "https://www.moonactive.com/careers/"
+  },
+  {
+    "name": "Plarium",
+    "type": "custom",
+    "url": "https://plarium.com/en/careers/"
+  },
+  {
+    "name": "Overwolf",
+    "type": "custom",
+    "url": "https://www.overwolf.com/careers/"
+  },
+  {
+    "name": "SciPlay",
+    "type": "custom",
+    "url": "https://www.sciplay.com/careers/"
+  },
+  {
+    "name": "Logz.io",
+    "type": "custom",
+    "url": "https://logz.io/careers/"
+  },
+  {
+    "name": "Own Company",
+    "type": "custom",
+    "url": "https://www.owndata.com/careers"
+  },
+  {
+    "name": "Papaya Gaming",
+    "type": "custom",
+    "url": "https://www.papayagaming.com/careers"
+  },
+  {
+    "name": "ironSource (Unity)",
+    "type": "custom",
+    "url": "https://www.is.com/careers/"
+  },
+  {
+    "name": "Fireblocks",
+    "type": "custom",
+    "url": "https://www.fireblocks.com/careers/"
+  },
+  {
+    "name": "Pagaya",
+    "type": "custom",
+    "url": "https://pagaya.com/careers/"
+  },
+  {
+    "name": "eToro",
+    "type": "custom",
+    "url": "https://www.etoro.com/about/careers/"
+  },
+  {
+    "name": "EarnIn",
+    "type": "custom",
+    "url": "https://www.earnin.com/careers"
+  },
+  {
+    "name": "Rapyd",
+    "type": "custom",
+    "url": "https://www.rapyd.net/careers/"
+  },
+  {
+    "name": "Fundbox",
+    "type": "custom",
+    "url": "https://fundbox.com/careers/"
+  },
+  {
+    "name": "BlueVine",
+    "type": "custom",
+    "url": "https://www.bluevine.com/careers/"
+  },
+  {
+    "name": "Nice",
+    "type": "custom",
+    "url": "https://www.nice.com/careers"
+  },
+  {
+    "name": "Amdocs",
+    "type": "custom",
+    "url": "https://www.amdocs.com/careers"
+  },
+  {
+    "name": "Matrix",
+    "type": "custom",
+    "url": "https://www.matrix-globalservices.com/careers"
+  },
+  {
+    "name": "One Zero Bank",
+    "type": "custom",
+    "url": "https://www.onezerobank.com/careers/"
+  },
+  {
+    "name": "Sapiens",
+    "type": "custom",
+    "url": "https://sapiens.com/careers/"
+  },
+  {
+    "name": "Magic Software",
+    "type": "custom",
+    "url": "https://www.magicsoftware.com/careers/"
+  },
+  {
+    "name": "Priority Software",
+    "type": "custom",
+    "url": "https://www.priority-software.com/careers/"
+  },
+  {
+    "name": "Bringg",
+    "type": "custom",
+    "url": "https://www.bringg.com/careers/"
+  },
+  {
+    "name": "Optimove",
+    "type": "custom",
+    "url": "https://www.optimove.com/careers"
+  },
+  {
+    "name": "Zendesk Israel",
+    "type": "custom",
+    "url": "https://www.zendesk.com/careers/"
+  },
+  {
+    "name": "HubSpot Israel",
+    "type": "custom",
+    "url": "https://www.hubspot.com/careers"
+  },
+  {
+    "name": "Intercom Israel",
+    "type": "custom",
+    "url": "https://www.intercom.com/careers"
+  },
+  {
+    "name": "Asana Israel",
+    "type": "custom",
+    "url": "https://asana.com/jobs"
+  },
+  {
+    "name": "Miro Israel",
+    "type": "custom",
+    "url": "https://miro.com/careers/"
+  },
+  {
+    "name": "Figma Israel",
+    "type": "custom",
+    "url": "https://www.figma.com/careers/"
+  },
+  {
+    "name": "Canva Israel",
+    "type": "custom",
+    "url": "https://www.canva.com/careers/"
+  },
+  {
+    "name": "Airtable Israel",
+    "type": "custom",
+    "url": "https://www.airtable.com/careers"
+  },
+  {
+    "name": "Notion Israel",
+    "type": "custom",
+    "url": "https://www.notion.so/careers"
+  },
+  {
+    "name": "Slack Israel",
+    "type": "custom",
+    "url": "https://slack.com/careers"
+  },
+  {
+    "name": "Zoom Israel",
+    "type": "custom",
+    "url": "https://careers.zoom.us/home"
+  },
+  {
+    "name": "Twilio Israel",
+    "type": "custom",
+    "url": "https://www.twilio.com/company/careers"
+  },
+  {
+    "name": "Stripe Israel",
+    "type": "custom",
+    "url": "https://stripe.com/jobs"
+  },
+  {
+    "name": "Adyen Israel",
+    "type": "custom",
+    "url": "https://careers.adyen.com/"
+  },
+  {
+    "name": "Klarna Israel",
+    "type": "custom",
+    "url": "https://www.klarna.com/careers/"
+  },
+  {
+    "name": "Plaid Israel",
+    "type": "custom",
+    "url": "https://plaid.com/careers/"
+  },
+  {
+    "name": "Revolut Israel",
+    "type": "custom",
+    "url": "https://www.revolut.com/careers/"
+  },
+  {
+    "name": "Monzo Israel",
+    "type": "custom",
+    "url": "https://monzo.com/careers/"
+  },
+  {
+    "name": "Chime Israel",
+    "type": "custom",
+    "url": "https://chime.com/careers"
+  },
+  {
+    "name": "N26 Israel",
+    "type": "custom",
+    "url": "https://n26.com/en-eu/careers"
+  },
+  {
+    "name": "Wise Israel",
+    "type": "custom",
+    "url": "https://wise.jobs/"
+  },
+  {
+    "name": "Remitly Israel",
+    "type": "custom",
+    "url": "https://careers.remitly.com/"
+  },
+  {
+    "name": "Flywire Israel",
+    "type": "custom",
+    "url": "https://www.flywire.com/careers"
+  },
+  {
+    "name": "Toast Israel",
+    "type": "custom",
+    "url": "https://careers.toasttab.com/"
+  },
+  {
+    "name": "Square Israel",
+    "type": "custom",
+    "url": "https://block.xyz/careers"
+  },
+  {
+    "name": "Shopify Israel",
+    "type": "custom",
+    "url": "https://www.shopify.com/careers"
+  },
+  {
+    "name": "Squarespace Israel",
+    "type": "custom",
+    "url": "https://www.squarespace.com/careers"
+  },
+  {
+    "name": "BigCommerce Israel",
+    "type": "custom",
+    "url": "https://www.bigcommerce.com/careers/"
+  },
+  {
+    "name": "Cornerstone OnDemand Israel",
+    "type": "custom",
+    "url": "https://www.cornerstoneondemand.com/company/careers/"
+  },
+  {
+    "name": "Gusto Israel",
+    "type": "custom",
+    "url": "https://gusto.com/about/careers"
+  },
+  {
+    "name": "Rippling Israel",
+    "type": "custom",
+    "url": "https://www.rippling.com/careers"
+  },
+  {
+    "name": "Deel Israel",
+    "type": "custom",
+    "url": "https://www.deel.com/careers"
+  },
+  {
+    "name": "Remote Israel",
+    "type": "custom",
+    "url": "https://remote.com/careers"
+  },
+  {
+    "name": "Oyster HR Israel",
+    "type": "custom",
+    "url": "https://www.oysterhr.com/careers"
+  },
+  {
+    "name": "Velocity Global Israel",
+    "type": "custom",
+    "url": "https://velocityglobal.com/about-us/careers/"
+  },
+  {
+    "name": "Lattice Israel",
+    "type": "custom",
+    "url": "https://lattice.com/careers"
+  },
+  {
+    "name": "Culture Amp Israel",
+    "type": "custom",
+    "url": "https://www.cultureamp.com/careers"
+  },
+  {
+    "name": "15Five Israel",
+    "type": "custom",
+    "url": "https://www.15five.com/careers/"
+  },
+  {
+    "name": "Officevibe Israel",
+    "type": "custom",
+    "url": "https://workleap.com/careers/"
+  },
+  {
+    "name": "Qualtrics Israel",
+    "type": "custom",
+    "url": "https://www.qualtrics.com/careers/"
+  },
+  {
+    "name": "Medallia Israel",
+    "type": "custom",
+    "url": "https://www.medallia.com/careers/"
+  },
+  {
+    "name": "SurveyMonkey Israel",
+    "type": "custom",
+    "url": "https://www.surveymonkey.com/careers/"
+  },
+  {
+    "name": "Typeform Israel",
+    "type": "custom",
+    "url": "https://www.typeform.com/careers/"
+  },
+  {
+    "name": "Jotform Israel",
+    "type": "custom",
+    "url": "https://www.jotform.com/careers/"
+  },
+  {
+    "name": "Formstack Israel",
+    "type": "custom",
+    "url": "https://www.formstack.com/careers"
+  },
+  {
+    "name": "DocuSign Israel",
+    "type": "custom",
+    "url": "https://careers.docusign.com/"
+  },
+  {
+    "name": "HelloSign (Dropbox) Israel",
+    "type": "custom",
+    "url": "https://www.dropbox.com/jobs"
+  },
+  {
+    "name": "PandaDoc Israel",
+    "type": "custom",
+    "url": "https://www.pandadoc.com/careers/"
+  },
+  {
+    "name": "Procore Israel",
+    "type": "custom",
+    "url": "https://www.procore.com/jobs"
+  },
+  {
+    "name": "Fieldwire Israel",
+    "type": "custom",
+    "url": "https://www.fieldwire.com/careers/"
+  },
+  {
+    "name": "Buildertrend Israel",
+    "type": "custom",
+    "url": "https://buildertrend.com/careers/"
+  },
+  {
+    "name": "Houzz Israel",
+    "type": "custom",
+    "url": "https://www.houzz.com/careers"
+  },
+  {
+    "name": "Porch Israel",
+    "type": "custom",
+    "url": "https://porch.com/about/careers"
+  },
+  {
+    "name": "Thumbtack Israel",
+    "type": "custom",
+    "url": "https://www.thumbtack.com/careers"
+  },
+  {
+    "name": "TaskRabbit Israel",
+    "type": "custom",
+    "url": "https://www.taskrabbit.com/careers"
+  },
+  {
+    "name": "Upwork Israel",
+    "type": "custom",
+    "url": "https://www.upwork.com/careers"
+  },
+  {
+    "name": "Freelancer Israel",
+    "type": "custom",
+    "url": "https://www.freelancer.com/careers"
+  },
+  {
+    "name": "Toptal Israel",
+    "type": "custom",
+    "url": "https://www.toptal.com/careers"
+  },
+  {
+    "name": "Shutterstock Israel",
+    "type": "custom",
+    "url": "https://www.shutterstock.com/careers"
+  },
+  {
+    "name": "Getty Images Israel",
+    "type": "custom",
+    "url": "https://jobs.gettyimages.com/"
+  },
+  {
+    "name": "Vimeo Israel",
+    "type": "custom",
+    "url": "https://vimeo.com/careers"
+  },
+  {
+    "name": "Wistia Israel",
+    "type": "custom",
+    "url": "https://wistia.com/careers"
+  },
+  {
+    "name": "Vidyard Israel",
+    "type": "custom",
+    "url": "https://www.vidyard.com/careers/"
+  },
+  {
+    "name": "Brightcove Israel",
+    "type": "custom",
+    "url": "https://www.brightcove.com/en/careers/"
+  },
+  {
+    "name": "Haivision Israel",
+    "type": "custom",
+    "url": "https://www.haivision.com/careers/"
+  },
+  {
+    "name": "Wowza Israel",
+    "type": "custom",
+    "url": "https://www.wowza.com/careers"
+  },
+  {
+    "name": "Jwplayer Israel",
+    "type": "custom",
+    "url": "https://www.jwplayer.com/careers/"
+  },
+  {
+    "name": "Dailymotion Israel",
+    "type": "custom",
+    "url": "https://careers.dailymotion.com/"
+  },
+  {
+    "name": "Qodo",
+    "type": "custom",
+    "url": "https://www.qodo.ai/careers/"
+  },
+  {
+    "name": "Decart",
+    "type": "custom",
+    "url": "https://www.decart.ai/careers"
+  },
+  {
+    "name": "Port",
+    "type": "custom",
+    "url": "https://www.getport.io/careers"
+  },
+  {
+    "name": "ScaleOps",
+    "type": "custom",
+    "url": "https://scaleops.com/careers/"
+  },
+  {
+    "name": "Coralogix",
+    "type": "custom",
+    "url": "https://coralogix.com/careers/"
+  },
+  {
+    "name": "Pinecone",
+    "type": "custom",
+    "url": "https://www.pinecone.io/careers/"
+  },
+  {
+    "name": "Datarails",
+    "type": "custom",
+    "url": "https://www.datarails.com/careers/"
+  },
+  {
+    "name": "Infinidat",
+    "type": "custom",
+    "url": "https://www.infinidat.com/en/careers"
+  },
+  {
+    "name": "Dataloop",
+    "type": "custom",
+    "url": "https://www.dataloop.ai/careers/"
+  },
+  {
+    "name": "Winn.AI",
+    "type": "custom",
+    "url": "https://winn.ai/careers/"
+  },
+  {
+    "name": "Vast Data",
+    "type": "custom",
+    "url": "https://www.vastdata.com/careers"
+  },
+  {
+    "name": "Lightricks",
+    "type": "custom",
+    "url": "https://www.lightricks.com/careers"
+  },
+  {
+    "name": "AI21 Labs",
+    "type": "custom",
+    "url": "https://www.ai21.com/careers"
+  },
+  {
+    "name": "Pecan AI",
+    "type": "custom",
+    "url": "https://www.pecan.ai/careers/"
+  },
+  {
+    "name": "Explorium",
+    "type": "custom",
+    "url": "https://www.explorium.ai/careers/"
+  },
+  {
+    "name": "Speedb",
+    "type": "custom",
+    "url": "https://www.speedb.io/careers"
+  },
+  {
+    "name": "Zesty",
+    "type": "custom",
+    "url": "https://zesty.co/careers/"
+  },
+  {
+    "name": "Anodot",
+    "type": "custom",
+    "url": "https://www.anodot.com/careers/"
+  },
+  {
+    "name": "Rivery",
+    "type": "custom",
+    "url": "https://rivery.io/careers/"
+  },
+  {
+    "name": "Upsolver",
+    "type": "custom",
+    "url": "https://www.upsolver.com/careers"
+  },
+  {
+    "name": "Bizzabo",
+    "type": "custom",
+    "url": "https://www.bizzabo.com/careers"
+  },
+  {
+    "name": "getElementor",
+    "type": "custom",
+    "url": "https://elementor.com/careers/"
+  },
+  {
+    "name": "Bookaway",
+    "type": "custom",
+    "url": "https://www.bookaway.com/careers"
+  },
+  {
+    "name": "GigaSpaces",
+    "type": "custom",
+    "url": "https://www.gigaspaces.com/careers"
+  },
+  {
+    "name": "Redis",
+    "type": "custom",
+    "url": "https://redis.com/careers/"
+  },
+  {
+    "name": "ScillaDB",
+    "type": "custom",
+    "url": "https://www.scylladb.com/careers/"
+  },
+  {
+    "name": "Treeverse",
+    "type": "custom",
+    "url": "https://treeverse.io/careers"
+  },
+  {
+    "name": "Komodor",
+    "type": "custom",
+    "url": "https://komodor.com/careers/"
+  },
+  {
+    "name": "Env0",
+    "type": "custom",
+    "url": "https://www.env0.com/careers"
+  },
+  {
+    "name": "Frontegg",
+    "type": "custom",
+    "url": "https://frontegg.com/careers"
+  },
+  {
+    "name": "Wilco",
+    "type": "custom",
+    "url": "https://www.trywilco.com/careers"
+  },
+  {
+    "name": "Snowflake Israel",
+    "type": "custom",
+    "url": "https://www.snowflake.com/careers/"
+  },
+  {
+    "name": "Databricks Israel",
+    "type": "custom",
+    "url": "https://www.databricks.com/company/careers"
+  },
+  {
+    "name": "Confluent Israel",
+    "type": "custom",
+    "url": "https://www.confluent.com/careers/"
+  },
+  {
+    "name": "MongoDB Israel",
+    "type": "custom",
+    "url": "https://www.mongodb.com/careers"
+  },
+  {
+    "name": "Elastic Israel",
+    "type": "custom",
+    "url": "https://www.elastic.co/careers/"
+  },
+  {
+    "name": "Sumo Logic Israel",
+    "type": "custom",
+    "url": "https://www.sumologic.com/company/careers/"
+  },
+  {
+    "name": "Dynatrace Israel",
+    "type": "custom",
+    "url": "https://www.dynatrace.com/company/careers/"
+  },
+  {
+    "name": "New Relic Israel",
+    "type": "custom",
+    "url": "https://newrelic.com/about/culture/careers"
+  },
+  {
+    "name": "Datadog Israel",
+    "type": "custom",
+    "url": "https://www.datadoghq.com/careers/"
+  },
+  {
+    "name": "Grafana Labs Israel",
+    "type": "custom",
+    "url": "https://grafana.com/about/careers/"
+  },
+  {
+    "name": "HashiCorp Israel",
+    "type": "custom",
+    "url": "https://www.hashicorp.com/careers"
+  },
+  {
+    "name": "PagerDuty Israel",
+    "type": "custom",
+    "url": "https://www.pagerduty.com/careers/"
+  },
+  {
+    "name": "Sonatype Israel",
+    "type": "custom",
+    "url": "https://www.sonatype.com/careers"
+  },
+  {
+    "name": "Veracode Israel",
+    "type": "custom",
+    "url": "https://www.veracode.com/about/careers"
+  },
+  {
+    "name": "ScienceLogic Israel",
+    "type": "custom",
+    "url": "https://sciencelogic.com/careers"
+  },
+  {
+    "name": "Zenoss Israel",
+    "type": "custom",
+    "url": "https://www.zenoss.com/careers"
+  },
+  {
+    "name": "Nagios Israel",
+    "type": "custom",
+    "url": "https://www.nagios.com/careers/"
+  },
+  {
+    "name": "Zabbix Israel",
+    "type": "custom",
+    "url": "https://www.zabbix.com/careers"
+  },
+  {
+    "name": "InfluxData Israel",
+    "type": "custom",
+    "url": "https://www.influxdata.com/careers/"
+  },
+  {
+    "name": "Timescale Israel",
+    "type": "custom",
+    "url": "https://www.timescale.com/careers"
+  },
+  {
+    "name": "Cockroach Labs Israel",
+    "type": "custom",
+    "url": "https://www.cockroachlabs.com/careers/"
+  },
+  {
+    "name": "Yugabyte Israel",
+    "type": "custom",
+    "url": "https://www.yugabyte.com/careers/"
+  },
+  {
+    "name": "PlanetScale Israel",
+    "type": "custom",
+    "url": "https://www.planetscale.com/careers"
+  },
+  {
+    "name": "Supabase Israel",
+    "type": "custom",
+    "url": "https://supabase.com/careers"
+  },
+  {
+    "name": "DigitalOcean Israel",
+    "type": "custom",
+    "url": "https://www.digitalocean.com/careers"
+  },
+  {
+    "name": "Vultr Israel",
+    "type": "custom",
+    "url": "https://www.vultr.com/careers/"
+  },
+  {
+    "name": "OVHcloud Israel",
+    "type": "custom",
+    "url": "https://corporate.ovhcloud.com/en/careers/"
+  },
+  {
+    "name": "Hetzner Israel",
+    "type": "custom",
+    "url": "https://www.hetzner.com/careers"
+  },
+  {
+    "name": "Docker Israel",
+    "type": "custom",
+    "url": "https://www.docker.com/careers"
+  },
+  {
+    "name": "SUSE Israel",
+    "type": "custom",
+    "url": "https://www.suse.com/careers/"
+  },
+  {
+    "name": "Canonical (Ubuntu) Israel",
+    "type": "custom",
+    "url": "https://canonical.com/careers"
+  },
+  {
+    "name": "Mobileye",
+    "type": "custom",
+    "url": "https://www.mobileye.com/careers/"
+  },
+  {
+    "name": "SolarEdge Technologies",
+    "type": "custom",
+    "url": "https://www.solaredge.com/corporate/careers"
+  },
+  {
+    "name": "StoreDot",
+    "type": "custom",
+    "url": "https://www.store-dot.com/careers"
+  },
+  {
+    "name": "Innoviz Technologies",
+    "type": "custom",
+    "url": "https://innoviz.tech/careers"
+  },
+  {
+    "name": "Upstream Security",
+    "type": "custom",
+    "url": "https://upstream.auto/careers/"
+  },
+  {
+    "name": "proteanTecs",
+    "type": "custom",
+    "url": "https://www.proteantecs.com/careers"
+  },
+  {
+    "name": "Hailo",
+    "type": "custom",
+    "url": "https://hailo.ai/careers/"
+  },
+  {
+    "name": "Vayyar Imaging",
+    "type": "custom",
+    "url": "https://vayyar.com/careers/"
+  },
+  {
+    "name": "Valerann",
+    "type": "custom",
+    "url": "https://www.valerann.com/careers"
+  },
+  {
+    "name": "Otonomo",
+    "type": "custom",
+    "url": "https://otonomo.io/careers"
+  },
+  {
+    "name": "TriEye",
+    "type": "custom",
+    "url": "https://trieye.com/careers/"
+  },
+  {
+    "name": "Cognata",
+    "type": "custom",
+    "url": "https://www.cognata.com/careers/"
+  },
+  {
+    "name": "Arbe Robotics",
+    "type": "custom",
+    "url": "https://arberobotics.com/careers/"
+  },
+  {
+    "name": "Via Transportation",
+    "type": "custom",
+    "url": "https://ridewithvia.com/careers"
+  },
+  {
+    "name": "Gett",
+    "type": "custom",
+    "url": "https://www.gett.com/careers/"
+  },
+  {
+    "name": "H2Pro",
+    "type": "custom",
+    "url": "https://www.h2pro.co/careers"
+  },
+  {
+    "name": "Phinergy",
+    "type": "custom",
+    "url": "https://phinergy.com/careers/"
+  },
+  {
+    "name": "Lumina",
+    "type": "custom",
+    "url": "https://www.lumina.com/careers"
+  },
+  {
+    "name": "Electreon",
+    "type": "custom",
+    "url": "https://electreon.com/careers"
+  },
+  {
+    "name": "Healthy.io",
+    "type": "custom",
+    "url": "https://healthy.io/careers/"
+  },
+  {
+    "name": "K Health",
+    "type": "custom",
+    "url": "https://khealth.com/careers/"
+  },
+  {
+    "name": "TytoCare",
+    "type": "custom",
+    "url": "https://www.tytocare.com/careers/"
+  },
+  {
+    "name": "EarlySense",
+    "type": "custom",
+    "url": "https://www.earlysense.com/careers"
+  },
+  {
+    "name": "Viz.ai",
+    "type": "custom",
+    "url": "https://www.viz.ai/careers"
+  },
+  {
+    "name": "Aidoc",
+    "type": "custom",
+    "url": "https://www.aidoc.com/careers/"
+  },
+  {
+    "name": "Sweetch",
+    "type": "custom",
+    "url": "https://sweetch.com/careers/"
+  },
+  {
+    "name": "Nucleai",
+    "type": "custom",
+    "url": "https://nucleai.ai/careers/"
+  },
+  {
+    "name": "Ibex Medical Analytics",
+    "type": "custom",
+    "url": "https://ibex-ai.com/careers/"
+  },
+  {
+    "name": "Sight Diagnostics",
+    "type": "custom",
+    "url": "https://www.sightdx.com/careers"
+  },
+  {
+    "name": "Medial EarlySign",
+    "type": "custom",
+    "url": "https://earlysign.com/careers/"
+  },
+  {
+    "name": "Binah.ai",
+    "type": "custom",
+    "url": "https://www.binah.ai/careers/"
+  },
+  {
+    "name": "TailorMed",
+    "type": "custom",
+    "url": "https://tailormed.co/careers/"
+  },
+  {
+    "name": "Remilk",
+    "type": "custom",
+    "url": "https://www.remilk.com/careers"
+  },
+  {
+    "name": "Landa Digital Printing",
+    "type": "custom",
+    "url": "https://landanano.com/careers/"
+  },
+  {
+    "name": "Stratasys",
+    "type": "custom",
+    "url": "https://www.stratasys.com/en/careers/"
+  },
+  {
+    "name": "Kornit Digital",
+    "type": "custom",
+    "url": "https://www.kornit.com/careers/"
+  },
+  {
+    "name": "Appcharge",
+    "type": "custom",
+    "url": "https://appcharge.com/careers/"
+  },
+  {
+    "name": "Teva Pharmaceutical",
+    "type": "custom",
+    "url": "https://www.tevapharm.com/careers/"
+  },
+  {
+    "name": "BiolineRx",
+    "type": "custom",
+    "url": "https://biolinerx.com/careers/"
+  },
+  {
+    "name": "Compugen",
+    "type": "custom",
+    "url": "https://www.cgen.com/careers/"
+  },
+  {
+    "name": "Pluristem Therapeutics",
+    "type": "custom",
+    "url": "https://www.pluristem.com/careers/"
+  },
+  {
+    "name": "Gamida Cell",
+    "type": "custom",
+    "url": "https://gamida-cell.com/careers/"
+  },
+  {
+    "name": "Protalix Biotherapeutics",
+    "type": "custom",
+    "url": "https://protalix.com/careers/"
+  },
+  {
+    "name": "Intec Pharma",
+    "type": "custom",
+    "url": "https://intecpharma.com/"
+  },
+  {
+    "name": "RedHill Biopharma",
+    "type": "custom",
+    "url": "https://www.redhillbio.com/careers"
+  },
+  {
+    "name": "Brainsway",
+    "type": "custom",
+    "url": "https://www.brainsway.com/careers/"
+  },
+  {
+    "name": "Rewalk Robotics",
+    "type": "custom",
+    "url": "https://rewalk.com/careers/"
+  },
+  {
+    "name": "IceCure Medical",
+    "type": "custom",
+    "url": "https://www.icecure-medical.com/careers/"
+  },
+  {
+    "name": "Check-Cap",
+    "type": "custom",
+    "url": "https://check-cap.com/"
+  },
+  {
+    "name": "Itamar Medical",
+    "type": "custom",
+    "url": "https://www.itamar-medical.com/careers/"
+  },
+  {
+    "name": "Medtronic Israel",
+    "type": "custom",
+    "url": "https://www.medtronic.com/us-en/about/careers.html"
+  },
+  {
+    "name": "Boston Scientific Israel",
+    "type": "custom",
+    "url": "https://www.bostonscientific.com/en-US/careers.html"
+  },
+  {
+    "name": "Johnson & Johnson Israel",
+    "type": "custom",
+    "url": "https://www.careers.jnj.com/"
+  },
+  {
+    "name": "Abbott Laboratories Israel",
+    "type": "custom",
+    "url": "https://www.jobs.abbott/us/en"
+  },
+  {
+    "name": "Roche Israel",
+    "type": "custom",
+    "url": "https://www.roche.com/careers"
+  },
+  {
+    "name": "Novartis Israel",
+    "type": "custom",
+    "url": "https://www.novartis.com/careers"
+  },
+  {
+    "name": "Pfizer Israel",
+    "type": "custom",
+    "url": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+  },
+  {
+    "name": "Merck Israel",
+    "type": "custom",
+    "url": "https://www.merckgroup.com/en/careers.html"
+  },
+  {
+    "name": "Sanofi Israel",
+    "type": "custom",
+    "url": "https://www.sanofi.com/en/careers"
+  },
+  {
+    "name": "GlaxoSmithKline (GSK) Israel",
+    "type": "custom",
+    "url": "https://www.gsk.com/en-gb/careers/"
+  },
+  {
+    "name": "AstraZeneca Israel",
+    "type": "custom",
+    "url": "https://careers.astrazeneca.com/"
+  },
+  {
+    "name": "Bristol Myers Squibb Israel",
+    "type": "custom",
+    "url": "https://careers.bms.com/"
+  },
+  {
+    "name": "Eli Lilly Israel",
+    "type": "custom",
+    "url": "https://careers.lilly.com/"
+  },
+  {
+    "name": "Amgen Israel",
+    "type": "custom",
+    "url": "https://careers.amgen.com/"
+  },
+  {
+    "name": "Gilead Sciences Israel",
+    "type": "custom",
+    "url": "https://gilead.wd1.myworkdayjobs.com/gileadcareers"
+  },
+  {
+    "name": "Bayer Israel",
+    "type": "custom",
+    "url": "https://career.bayer.com/en/career"
+  },
+  {
+    "name": "Boehringer Ingelheim Israel",
+    "type": "custom",
+    "url": "https://careers.boehringer-ingelheim.com/"
+  },
+  {
+    "name": "Takeda Pharmaceutical Israel",
+    "type": "custom",
+    "url": "https://www.takeda.com/careers/"
+  },
+  {
+    "name": "Astellas Pharma Israel",
+    "type": "custom",
+    "url": "https://www.astellas.com/en/careers"
+  },
+  {
+    "name": "Daiichi Sankyo Israel",
+    "type": "custom",
+    "url": "https://www.daiichisankyo.com/careers/"
+  },
+  {
+    "name": "Otsuka Pharmaceutical Israel",
+    "type": "custom",
+    "url": "https://www.otsuka.co.jp/en/careers/"
+  },
+  {
+    "name": "Eisai Israel",
+    "type": "custom",
+    "url": "https://www.eisai.com/careers/index.html"
+  },
+  {
+    "name": "Shionogi Israel",
+    "type": "custom",
+    "url": "https://www.shionogi.com/global/en/careers.html"
+  },
+  {
+    "name": "Mitsubishi Tanabe Pharma",
+    "type": "custom",
+    "url": "https://www.mt-pharma.co.jp/e/"
+  },
+  {
+    "name": "Sumitomo Pharma Israel",
+    "type": "custom",
+    "url": "https://sumitomo-pharma.com/"
+  },
+  {
+    "name": "Kyowa Kirin Israel",
+    "type": "custom",
+    "url": "https://www.kyowakirin.com/careers/"
+  },
+  {
+    "name": "Novo Nordisk Israel",
+    "type": "custom",
+    "url": "https://www.novonordisk.com/careers.html"
+  },
+  {
+    "name": "Leo Pharma Israel",
+    "type": "custom",
+    "url": "https://www.leo-pharma.com/careers"
+  },
+  {
+    "name": "Lundbeck Israel",
+    "type": "custom",
+    "url": "https://www.lundbeck.com/global/about-us/careers"
+  },
+  {
+    "name": "Ferring Pharmaceuticals Israel",
+    "type": "custom",
+    "url": "https://www.ferring.com/careers/"
+  },
+  {
+    "name": "Mylan (Viatris) Israel",
+    "type": "custom",
+    "url": "https://www.viatris.com/en/careers"
+  },
+  {
+    "name": "Upjohn (Viatris) Israel",
+    "type": "custom",
+    "url": "https://www.viatris.com/en/careers"
+  },
+  {
+    "name": "Biogen Israel",
+    "type": "custom",
+    "url": "https://careers.biogen.com/"
+  },
+  {
+    "name": "Vertex Pharmaceuticals Israel",
+    "type": "custom",
+    "url": "https://vrtx.wd1.myworkdayjobs.com/Vertex_External_Careers"
+  },
+  {
+    "name": "Regeneron Pharmaceuticals",
+    "type": "custom",
+    "url": "https://careers.regeneron.com/"
+  },
+  {
+    "name": "Alexion Pharmaceuticals",
+    "type": "custom",
+    "url": "https://alexion.com/careers"
+  },
+  {
+    "name": "Jazz Pharmaceuticals Israel",
+    "type": "custom",
+    "url": "https://careers.jazzpharma.com/"
+  },
+  {
+    "name": "BioMarin Pharmaceutical",
+    "type": "custom",
+    "url": "https://careers.biomarin.com/"
+  },
+  {
+    "name": "Horizon Therapeutics Israel",
+    "type": "custom",
+    "url": "https://www.horizontherapeutics.com/careers"
+  },
+  {
+    "name": "Incyte Israel",
+    "type": "custom",
+    "url": "https://www.incyte.com/careers"
+  },
+  {
+    "name": "Genmab Israel",
+    "type": "custom",
+    "url": "https://www.genmab.com/careers/"
+  },
+  {
+    "name": "Argenx Israel",
+    "type": "custom",
+    "url": "https://www.argenx.com/careers"
+  },
+  {
+    "name": "Ultragenyx Pharmaceutical",
+    "type": "custom",
+    "url": "https://www.ultragenyx.com/careers/"
+  },
+  {
+    "name": "Sarepta Therapeutics Israel",
+    "type": "custom",
+    "url": "https://www.sarepta.com/careers"
+  },
+  {
+    "name": "Alnylam Pharmaceuticals",
+    "type": "custom",
+    "url": "https://www.alnylam.com/careers"
+  },
+  {
+    "name": "Ionis Pharmaceuticals Israel",
+    "type": "custom",
+    "url": "https://www.ionispharma.com/careers/"
+  },
+  {
+    "name": "Moderna Israel",
+    "type": "custom",
+    "url": "https://www.modernatx.com/careers"
+  },
+  {
+    "name": "BioNTech Israel",
+    "type": "custom",
+    "url": "https://biontech.de/careers"
+  },
+  {
+    "name": "CureVac Israel",
+    "type": "custom",
+    "url": "https://www.curevac.com/en/careers/"
+  },
+  {
+    "name": "Novavax Israel",
+    "type": "custom",
+    "url": "https://www.novavax.com/careers"
+  },
+  {
+    "name": "Dynavax Technologies Israel",
+    "type": "custom",
+    "url": "https://www.dynavax.com/careers/"
+  },
+  {
+    "name": "Vaxart Israel",
+    "type": "custom",
+    "url": "https://vaxart.com/careers/"
+  },
+  {
+    "name": "Inovio Pharmaceuticals",
+    "type": "custom",
+    "url": "https://www.inovio.com/careers/"
+  },
+  {
+    "name": "Altimmune Israel",
+    "type": "custom",
+    "url": "https://altimmune.com/careers/"
   }
 ]
