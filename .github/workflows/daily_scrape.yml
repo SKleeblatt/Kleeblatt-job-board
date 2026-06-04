@@ -19,15 +19,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
-
-      # שלב התיקון האקטיבי שמנקה את חוסר הסנכרון בענן
-      - name: Fix Git Divergence
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git fetch origin main
-          git reset --hard origin/main
+          fetch-depth: 0 # מביא את כל ההיסטוריה כדי למנוע התנגשויות
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -44,9 +36,20 @@ jobs:
       - name: Run scraping script
         run: python scrape_jobs.py
 
-      - name: Commit and Push changes
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Updated job board and categories automatically"
-          file_pattern: "README.md jobs/*.md"
-          push_options: '--force'
+      # במקום התוסף שנכשל, אנחנו מריצים פקודות גיט ישירות ומאלצים דחיקה (Force Push)
+      - name: Commit and Push changes manually
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # הוספת קובץ ה-README ותיקיית jobs למעקב
+          git add README.md jobs/*.md || true
+          
+          # בדיקה האם בכלל יש שינויים שצריך לעדכן
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Updated job board and categories automatically"
+            # פקודת הקסם: מאלצת את השרת לקבל את השינויים ודורסת את חוסר הסנכרון
+            git push origin main --force
+          fi
