@@ -2,8 +2,9 @@ name: Update Job List
 
 on:
   schedule:
+    # ירוץ בכל יום בשעה 08:00 בבוקר (שעון UTC)
     - cron: '0 8 * * *'
-  workflow_dispatch:
+  workflow_dispatch: # מאפשר לך להריץ ידנית מתי שבא לך בלחיצת כפתור בגיטהאב
 
 permissions:
   contents: write
@@ -14,15 +15,20 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.9'
+          python-version: '3.10' # שדרוג קל לגרסת פייתון יציבה ומודרנית
+          cache: 'pip' # מאיץ את ההרצות הבאות על ידי שמירת הספריות בזיכרון מטמון
 
       - name: Install dependencies
         run: pip install -r requirements.txt
+
+      # שלב חובה עבור הסריקה של האתרים העצמאיים (Custom)
+      - name: Install Playwright Browsers
+        run: python -m playwright install --with-deps chromium
 
       - name: Run scraping script
         run: python scrape_jobs.py
