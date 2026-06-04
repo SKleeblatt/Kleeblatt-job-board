@@ -2,9 +2,8 @@ name: Update Job List
 
 on:
   schedule:
-    # ירוץ בכל יום בשעה 08:00 בבוקר (שעון UTC)
     - cron: '0 8 * * *'
-  workflow_dispatch: # מאפשר הפעלה ידנית בלחיצת כפתור
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -13,7 +12,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     
-    # הגדרת משתנה סביבה שמאלץ שימוש ב-Node.js 24 ומעלים את האזהרה
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
 
@@ -30,7 +28,6 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      # שלב חובה עבור הסריקה של האתרים העצמאיים (Custom)
       - name: Install Playwright Browsers
         run: python -m playwright install --with-deps chromium
 
@@ -40,5 +37,6 @@ jobs:
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Updated job list automatically"
-          file_pattern: README.md
+          commit_message: "Updated job board and categories automatically"
+          # כאן שינינו כדי שגיטהאב ידחוף גם את ה-README וגם את כל תיקיית jobs החדשה
+          file_pattern: "README.md jobs/*.md"
