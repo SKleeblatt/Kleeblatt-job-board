@@ -1,9 +1,14 @@
-import os, requests, json, re
+import os
+import requests
+import json
+import re
+import csv
 from datetime import datetime
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
 
 JOBS_DIR = "jobs"
+CSV_FILE = "all_jobs.csv"
 
 CATEGORIES = {
     "management tech": ["cto", "vp r&d", "vp rd", "director of r&d", "director of rd", "head of r&d", "head of rd", "vp engineering"],
@@ -104,6 +109,7 @@ def main():
         with open('categories.json', 'r', encoding='utf-8') as f: sectors_map = json.load(f)
     except: return
 
+    all_jobs_data = []
     categorized_jobs = {cat: [] for cat in CATEGORIES.keys()}
     categorized_jobs["other"] = []
     dev_cats = ["frontend", "backend", "fullstack", "devops", "software", "data science", "data"]
@@ -123,8 +129,47 @@ def main():
         for j in raw_jobs:
             title = j.get('title') or j.get('name') or j.get('text', 'No Title')
             loc = j.get('location', {}).get('name', 'Israel') if isinstance(j.get('location'), dict) else j.get('location', 'Israel')
+            # לוקח תאריך אם קיים, אחרת היום
+            pub_date = j.get('created_at', datetime.now().strftime('%Y-%m-%d'))[:10]
+            
             if is_in_israel(loc):
                 cat = categorize_job(title)
                 data = {
                     "company": comp_name,
                     "industry": ind,
+                    "title": title,
+                    "location": loc,
+                    "work_model": detect_work_model(title, loc, j.get('description', '')),
+                    "date": pub_date,
+                    "url": j.get('absolute_url') or j.get('url_active_page') or j.get('hostedUrl') or j.get('jobUrl') or j.get('url', '#')
+                }
+                if cat in dev_cats:
+                    data["technologies"] = ", ".join(extract_technologies(title, j.get('description', '')))
+                else:
+                    data["technologies"] = "N/A"
+                
+                categorized_jobs[cat].append(data)
+                all_jobs_data.append(data)
+
+    # יצירת CSV
+    with open(CSV_FILE, 'w', newline='', encoding='utf-8') as f:
+        writer = csv.DictWriter(f, fieldnames=["company", "industry", "title", "location", "work_model", "date", "url", "technologies"])
+        writer.writeheader()
+        writer.writerows(all_jobs_data)
+
+    # יצירת Markdown
+    for cat, jobs in categorized_jobs.items():
+        if not jobs: continue
+        with open(f"{JOBS_DIR}/{cat.replace(' ', '_').replace('/', '_')}.md", "w", encoding="utf-8") as f:
+            f.write(f"# Open Positions in {cat.title()}\n\n")
+            for j in jobs:
+                f.write(f"### [{j['title']}]({j['url']})\n")
+                f.write(f"- **Company:** {j['company']}\n")
+                f.write(f"- **Date:** {j['date']}\n")
+                f.write(f"- **Location:** {j['location']}\n")
+                f.write(f"- **Model:** {j['work_model']}\n")
+                if j["technologies"] != "N/A": f.write(f"- **Tech:** {j['technologies']}\n")
+                f.write("\n---\n\n")
+
+if __name__ == "__main__":
+    main()
