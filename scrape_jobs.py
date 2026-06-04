@@ -158,4 +158,68 @@ def main():
             elif comp_type == 'lever' and comp_id:
                 raw_jobs = fetch_lever(comp_id)
                 for j in raw_jobs:
-                    jobs.append({"title": j['text'], "location": j.get('categories', {}).get('location
+                    # התיקון כאן בשורה הבאה - הכל סגור ותקין
+                    jobs.append({"title": j['text'], "location": j.get('categories', {}).get('location', 'Unknown'), "url": j['hostedUrl']})
+            elif comp_type == 'ashby' and comp_id:
+                raw_jobs = fetch_ashby(comp_id)
+                for j in raw_jobs:
+                    jobs.append({"title": j.get('title'), "location": j.get('location', 'Unknown'), "url": j.get('jobUrl')})
+            elif comp_type == 'bamboohr' and comp_id:
+                jobs = fetch_bamboohr(comp_id)
+            elif comp_type == 'custom' or (comp_url and not comp_id):
+                raw_jobs = fetch_custom_site(comp_url)
+                for j in raw_jobs:
+                    jobs.append({"title": j['title'], "location": j['location'], "url": j['url']})
+
+            debug_log += f"- **{comp_name}** ({comp_type or 'custom'}): נמצאו {len(jobs)} משרות.\n"
+
+            for job in jobs:
+                category = categorize_job(job['title'])
+                categorized_jobs[category].append({
+                    "company": comp_name,
+                    "title": job['title'].replace('|', '-'),
+                    "location": job['location'].replace('|', '-'),
+                    "url": job['url']
+                })
+        except Exception as e:
+            debug_log += f"- **{comp_name}**: שגיאה במהלך הסריקה - {e}\n"
+
+    # כתיבת קבצי הקטגוריות
+    for category, job_list in categorized_jobs.items():
+        cat_file_path = os.path.join(JOBS_DIR, f"{category.replace(' ', '_')}.md")
+        
+        if not job_list:
+            if os.path.exists(cat_file_path):
+                os.remove(cat_file_path)
+            continue
+            
+        cat_content = f"# 💼 משרות בקטגוריית {category.upper()}\n\n"
+        cat_content += f"עודכן לאחרונה: {datetime.now().strftime('%Y-%m-%d %H:%M')}\n\n"
+        cat_content += "| חברה | משרה | מיקום | קישור |\n"
+        cat_content += "| :--- | :--- | :--- | :--- |\n"
+        
+        for job in job_list:
+            cat_content += f"| {job['company']} | {job['title']} | {job['location']} | [הגש מועמדות]({job['url']}) |\n"
+            
+        with open(cat_file_path, "w", encoding="utf-8") as f:
+            f.write(cat_content)
+
+    # עדכון קובץ ה-README.md הראשי
+    readme_content = "# 🛠️ לוח משרות אוטומטי - דף ניווט ראשי\n\n"
+    readme_content += f"**זמן עדכון אחרון:** {datetime.now().strftime('%Y-%m-%d %H:%M')}\n\n"
+    readme_content += "ברוכים הבאים! המשרות מסוננות אוטומטית לפי תחומי עניין. בחרו קטגוריה כדי לצפות במשרות:\n\n"
+    readme_content += "### 📂 קטגוריות זמינות:\n"
+    
+    for category in categorized_jobs.keys():
+        count = len(categorized_jobs[category])
+        if count > 0:
+            file_name = category.replace(' ', '_')
+            readme_content += f"- [**{category.upper()}** (נמצאו {count} משרות)](jobs/{file_name}.md)\n"
+            
+    readme_content += "\n" + debug_log
+    
+    with open("README.md", "w", encoding="utf-8") as f:
+        f.write(readme_content)
+
+if __name__ == "__main__":
+    main()
