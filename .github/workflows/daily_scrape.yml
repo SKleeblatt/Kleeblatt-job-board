@@ -19,8 +19,15 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          # פקודה חיונית: מבטיחה שגיטהאב יביא את ההיסטוריה המלאה כדי למנוע התנגשויות PUSH
-          fetch-depth: 0
+          fetch-depth: 0 # מביא את כל ההיסטוריה כדי שנוכל לתקן את ההתנגשות
+
+      # שלב חדש: פותר את בעיית ה-Diverged באופן אקטיבי ומאפס את השרת הזמני לענן
+      - name: Fix Git Divergence
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          git reset --hard origin/main
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -42,5 +49,4 @@ jobs:
         with:
           commit_message: "Updated job board and categories automatically"
           file_pattern: "README.md jobs/*.md"
-          # הוספת הגדרה למניעת שגיאות דחייה (נשלוף ונמזג שינויים אם הבראנץ' לא מסונכרן)
-          push_options: '--force'
+          push_options: '--force' # מאלץ דחיפה גם אם יש התנגדות קלה בענן
