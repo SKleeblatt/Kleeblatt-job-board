@@ -11,7 +11,7 @@ JOBS_DIR = "jobs"
 CSV_FILE = "all_jobs.csv"
 
 CATEGORIES = {
-    "management tech": ["cto", "vp r&d", "vp rd", "director of r&d", "director of rd", "head of r&d", "head of rd", "vp engineering"],
+    "management tech": ["cto", "vp r&d", "svp r&d", "vp rd", "head of r&d", "head of rd", "vp engineering", "svp engineering"],
     "frontend": ["frontend", "front-end", "front end", "react", "vue", "angular", "ui/ux", "web sdk"],
     "backend": ["backend", "back-end", "back end", "python", "node", "java", "go ", "golang", "ruby"],
     "fullstack": ["fullstack", "full-stack", "full stack", "web developer"],
@@ -24,7 +24,7 @@ CATEGORIES = {
     "sales": ["sales", "account manager", "bizdev", "business development", "inside sales", "account executive", "presales", "pre-sales"],
     "marketing": ["marketing", "seo", "growth", "content creator", "copywriter", "ppc", "brand"],
     "support": ["support", "customer success", "technical account manager", "tam", "helpdesk", "tier"],
-    "software": ["software engineer", "software developer", "r&d", "developer", "architect"]
+    "software": ["software engineer", "software developer", "r&d", "developer", "architect", "director of r&d", "director of rd",]
 }
 
 TECH_KEYWORDS = ["React", "Vue", "Angular", "Node", "Node.js", "Python", "Java", "Go", "Golang", "Ruby", "Rails", "PHP", "Laravel", "C#", ".NET", "C++", "TypeScript", "JavaScript", "AWS", "Azure", "GCP", "Docker", "Kubernetes", "SQL", "NoSQL", "MongoDB", "PostgreSQL", "Redis", "Kafka", "GraphQL", "Swift", "Kotlin", "Flutter", "React Native", "Snowflake", "Databricks", "Spark", "Hadoop", "Terraform", "CI/CD"]
