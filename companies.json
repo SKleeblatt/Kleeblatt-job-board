@@ -1,27 +1,17 @@
 [
   {
-    "name": "Monday",
-    "id": "monday",
-    "type": "comeet"
+    "name": "HoneyBook",
+    "type": "ashby",
+    "id": "honeybook"
   },
   {
-    "name": "Fiverr",
-    "id": "fiverr",
-    "type": "comeet"
+    "name": "Solitics",
+    "type": "bamboohr",
+    "id": "solitics"
   },
   {
-    "name": "Riskified",
-    "id": "riskified",
-    "type": "comeet"
-  },
-  {
-    "name": "Vimeo",
-    "id": "vimeo",
-    "type": "greenhouse"
-  },
-  {
-    "name": "Lemonade",
-    "id": "lemonade",
-    "type": "greenhouse"
+    "name": "BioCatch",
+    "type": "custom",
+    "url": "https://www.biocatch.com/cybersecurity-careers"
   }
 ]
