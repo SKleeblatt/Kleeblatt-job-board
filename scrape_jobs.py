@@ -36,11 +36,10 @@ def categorize_job(title):
     return "other"
 
 def is_in_israel(location_text):
-    """פונקציית סינון חדשה: בודקת אם המיקום הוא בישראל או שלט רחוק"""
+    """בודקת אם המיקום הוא בישראל או שלט רחוק"""
     if not location_text:
         return False
     loc_lower = location_text.lower()
-    # רשימת מילות מפתח שמעידות על משרה רלוונטית בישראל
     israel_keywords = ["israel", "tel aviv", "herzliya", "haifa", "jerusalem", "raanana", "netanya", "remote", "anywhere"]
     return any(kw in loc_lower for kw in israel_keywords)
 
@@ -165,61 +164,4 @@ def main():
             elif comp_type == 'comeet' and comp_id:
                 raw_jobs = fetch_comeet(comp_id)
                 for j in raw_jobs:
-                    loc = j.get('location', {}).get('name', 'Unknown')
-                    if is_in_israel(loc):
-                        jobs.append({"title": j['name'], "location": loc, "url": j.get('url_active_page') or comp_url})
-            elif comp_type == 'lever' and comp_id:
-                raw_jobs = fetch_lever(comp_id)
-                for j in raw_jobs:
-                    loc = j.get('categories', {}).get('location', 'Unknown')
-                    if is_in_israel(loc):
-                        jobs.append({"title": j['text'], "location": loc, "url": j['hostedUrl']})
-            elif comp_type == 'ashby' and comp_id:
-                raw_jobs = fetch_ashby(comp_id)
-                for j in raw_jobs:
-                    loc = j.get('location', 'Unknown')
-                    if is_in_israel(loc):
-                        jobs.append({"title": j.get('title'), "location": loc, "url": j.get('jobUrl')})
-            elif comp_type == 'bamboohr' and comp_id:
-                # בבמבוהו"ר בד"כ זה מראש מסונן לעמוד החברה הישראלי, נשמור רק את מה שרלוונטי
-                raw_jobs = fetch_bamboohr(comp_id)
-                for j in raw_jobs:
-                    if is_in_israel(j['location']):
-                        jobs.append(j)
-            elif comp_type == 'custom' or (comp_url and not comp_id):
-                raw_jobs = fetch_custom_site(comp_url)
-                for j in raw_jobs:
-                    if is_in_israel(j['location']):
-                        jobs.append(j)
-
-            debug_log += f"- **{comp_name}** ({comp_type or 'custom'}): נמצאו {len(jobs)} משרות רלוונטיות בישראל.\n"
-
-            for job in jobs:
-                category = categorize_job(job['title'])
-                categorized_jobs[category].append({
-                    "company": comp_name,
-                    "title": job['title'].replace('|', '-'),
-                    "location": job['location'].replace('|', '-'),
-                    "url": job['url']
-                })
-        except Exception as e:
-            debug_log += f"- **{comp_name}**: שגיאה במהלך הסריקה - {e}\n"
-
-    # כתיבת קבצי הקטגוריות
-    for category, job_list in categorized_jobs.items():
-        cat_file_path = os.path.join(JOBS_DIR, f"{category.replace(' ', '_')}.md")
-        
-        if not job_list:
-            if os.path.exists(cat_file_path):
-                os.remove(cat_file_path)
-            continue
-            
-        cat_content = f"# 💼 משרות בקטגוריית {category.upper()}\n\n"
-        cat_content += f"עודכן לאחרונה: {datetime.now().strftime('%Y-%m-%d %H:%M')}\n\n"
-        cat_content += "| חברה | משרה | מיקום | קישור |\n"
-        cat_content += "| :--- | :--- | :--- | :--- |\n"
-        
-        for job in job_list:
-            cat_content += f"| {job['company']} | {job['title']} | {job['location']} | [הגש מועמדות]({job['url']}) |\n"
-            
-        with open(cat_file_path, "w",
+                    loc = j.get('location', {}).get('name', '
