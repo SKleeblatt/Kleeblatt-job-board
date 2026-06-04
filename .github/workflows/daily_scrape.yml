@@ -19,7 +19,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # מביא את כל ההיסטוריה כדי למנוע התנגשויות
+          fetch-depth: 0 
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -36,20 +36,19 @@ jobs:
       - name: Run scraping script
         run: python scrape_jobs.py
 
-      # במקום התוסף שנכשל, אנחנו מריצים פקודות גיט ישירות ומאלצים דחיקה (Force Push)
+      # הרצת פקודות גיט ידניות עם פקודת ה-Force המוחלטת
       - name: Commit and Push changes manually
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
-          # הוספת קובץ ה-README ותיקיית jobs למעקב
+          # מוסיף את ה-README ואת תיקיית jobs החדשה למעקב
           git add README.md jobs/*.md || true
           
-          # בדיקה האם בכלל יש שינויים שצריך לעדכן
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
             git commit -m "Updated job board and categories automatically"
-            # פקודת הקסם: מאלצת את השרת לקבל את השינויים ודורסת את חוסר הסנכרון
+            # מאלץ את גיטהאב לקבל את השינויים ודורס את חוסר הסנכרון
             git push origin main --force
           fi
