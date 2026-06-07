@@ -41,9 +41,26 @@ def categorize_job(title):
             if kw in t: return cat
     return "other"
 
-def is_in_israel(loc):
-    if not loc: return False
-    return any(k in loc.lower() for k in ["israel", "tel aviv", "herzliya", "haifa", "jerusalem", "raanana", "netanya", "ישראל"])
+def is_in_israel(loc, title=""):
+    loc_lower = loc.lower() if loc else ""
+    title_lower = title.lower() if title else ""
+    
+    # מילים שפוסלות את המשרה מיידית (למשל משרות גלובליות או מדינות אחרות)
+    blacklist = ["remote us", "remote usa", "europe", "london", "berlin", "new york", "san francisco", "india", "ukraine", "poland", "romania"]
+    for word in blacklist:
+        if word in loc_lower or word in title_lower:
+            return False
+
+    # מילות מפתח לאישור המיקום בישראל (בערים או בשם המדינה)
+    israel_keywords = [
+        "israel", "ישראל", "tel aviv", "תל אביב", "herzliya", "הרצליה", 
+        "haifa", "חיפה", "jerusalem", "ירושלים", "raanana", "רעננה", 
+        "netanya", "נתניה", "petah tikva", "פתח תקווה", "rehovot", "רחובות",
+        "yokneam", "יקנעם", "hod hasharon", "הוד השרון", "givatayim", "גבעתיים", "ramat gan", "רמת גן"
+    ]
+    
+    # בדיקה האם אחד מהביטויים מופיע במיקום או בכותרת המשרה
+    return any(k in loc_lower for k in israel_keywords) or any(k in title_lower for k in israel_keywords)
 
 def detect_work_model(title, location, description=""):
     text = f"{title} {location} {description}".lower()
@@ -85,7 +102,8 @@ def fetch_bamboohr(cid):
         res = requests.get(f"https://{cid}.bamboohr.com/jobs/embed2.php", timeout=10)
         if res.status_code != 200: return []
         soup = BeautifulSoup(res.text, 'html.parser')
-        return [{"title": a.get_text(strip=True), "location": "Israel", "url": f"https://{cid}.bamboohr.com/careers/{a.get('href').split('=')[-1]}", "description": ""} for a in soup.select('.BambooHR-ATS-Jobs-Item a')]
+        # שונה: לא מניחים אוטומטית שזה ישראל, אלא משאירים ריק לבדיקה בהמשך אם אין מיקום
+        return [{"title": a.get_text(strip=True), "location": "", "url": f"https://{cid}.bamboohr.com/careers/{a.get('href').split('=')[-1]}", "description": ""} for a in soup.select('.BambooHR-ATS-Jobs-Item a')]
     except: return []
 
 def fetch_custom_site(url):
@@ -102,7 +120,8 @@ def fetch_custom_site(url):
                 text = el.get_text(strip=True)
                 if 5 < len(text) < 60 and any(kw in text.lower() for kw in titles):
                     link = el.get('href') if el.name == 'a' else url
-                    jobs.append({"title": text, "location": "Israel", "url": link if link.startswith('http') else url.rstrip('/') + '/' + link.lstrip('/'), "description": ""})
+                    # שונה: לא כותבים אוטומטית "Israel" במיקום, נותנים לפונקציית הסינון לבדוק לפי הכותרת
+                    jobs.append({"title": text, "location": "", "url": link if link.startswith('http') else url.rstrip('/') + '/' + link.lstrip('/'), "description": ""})
             return jobs
     except: return []
 
@@ -134,16 +153,19 @@ def main():
 
         for j in raw_jobs:
             title = j.get('title') or j.get('name') or j.get('text', 'No Title')
-            loc = j.get('location', {}).get('name', 'Israel') if isinstance(j.get('location'), dict) else j.get('location', 'Israel')
+            
+            # תיקון ברירת מחדל: לא שמים אוטומטית 'Israel' אלא מחרוזת ריקה אם אין מיקום
+            loc = j.get('location', {}).get('name', '') if isinstance(j.get('location'), dict) else j.get('location', '')
             pub_date = j.get('created_at', datetime.now().strftime('%Y-%m-%d'))[:10]
             
-            if is_in_israel(loc):
+            # הפונקציה המעודכנת מקבלת כעת גם את המיקום וגם את הכותרת
+            if is_in_israel(loc, title):
                 cat = categorize_job(title)
                 data = {
                     "company": comp_name,
                     "industry": ind,
                     "title": title,
-                    "location": loc,
+                    "location": loc if loc else "Israel (Detected)",
                     "work_model": detect_work_model(title, loc, j.get('description', '')),
                     "date": pub_date,
                     "url": j.get('absolute_url') or j.get('url_active_page') or j.get('hostedUrl') or j.get('jobUrl') or j.get('url', '#'),
