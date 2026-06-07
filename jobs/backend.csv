@@ -1,17 +1,5 @@
 company,industry,title,location,work_model,date,url,technologies
-Noma Security,Technology,Senior Backend EngineerTel Aviv  ·  Full-time  ·  Senior,Israel,Not Specified,2026-06-07,https://www.noma.security/careers/noma.security/careers/co/tel-aviv/FE.15A/senior-backend-engineer/all,Not Specified
-Island,Technology,Senior Backend Engineer - GlilotGlilot,Israel,Not Specified,2026-06-07,https://www.island.io/careers/#see-open-positions,Not Specified
-Island,Technology,Senior Backend EngineerTel Aviv,Israel,Not Specified,2026-06-07,https://www.island.io/careers/#see-open-positions,Not Specified
-Island,Technology,Senior Backend Engineer - GlilotGlilot,Israel,Not Specified,2026-06-07,https://www.island.io/careers/#,Not Specified
-Island,Technology,Senior Backend EngineerTel Aviv,Israel,Not Specified,2026-06-07,https://www.island.io/careers/#,Not Specified
-Wise Israel,Technology,Backend Engineer - Hold Team,Israel,Not Specified,2026-06-07,https://wise.jobs/job/backend-engineer-hold-team-in-london-jid-2175,Not Specified
-Wise Israel,Technology,Backend Engineer - Hold Team,Israel,Not Specified,2026-06-07,https://wise.jobs/job/backend-engineer-hold-team-in-london-jid-2175,Not Specified
-PandaDoc Israel,Technology,"Middle Python Engineer, Document App",Israel,Not Specified,2026-06-07,https://www.pandadoc.com/careers/,Python
-PandaDoc Israel,Technology,"Senior Python Engineer, Document App",Israel,Not Specified,2026-06-07,https://www.pandadoc.com/careers/,Python
-Dailymotion Israel,Technology,Senior Golang developer (All Genders),Israel,Not Specified,2026-06-07,https://www.smartrecruiters.com/Dailymotion/744000130295899,Golang
-Dailymotion Israel,Technology,Senior Python engineer (All Genders),Israel,Not Specified,2026-06-07,https://www.smartrecruiters.com/Dailymotion/744000130057659,Python
-Dailymotion Israel,Technology,Staff Python Engineer (Full remote France),Israel,Not Specified,2026-06-07,https://www.smartrecruiters.com/Dailymotion/744000124607080,Python
-Qodo,Technology,Senior Backend Engineer,Israel,Not Specified,2026-06-07,https://www.qodo.ai/careers/,Not Specified
-ScaleOps,Technology,Backend EngineerIsraelFull-timeOn-siteApply Online,Israel,On-site,2026-06-07,https://scaleops.com/careers/scaleops.com/careers/co/israel/38.54F/backend-engineer/all,Not Specified
-Treeverse,Technology,Backend Engineer,Israel,Not Specified,2026-06-07,https://treeverse.io/careers,Not Specified
-Frontegg,Technology,Senior Backend DeveloperR&DFull-timeApply now,Israel,Not Specified,2026-06-07,https://frontegg.com/careers/frontegg.com/careers/co/israel/DE.45E/senior-backend-developer/all,Not Specified
+Noma Security,Technology,Senior Backend EngineerTel Aviv  ·  Full-time  ·  Senior,Israel (Detected),Not Specified,2026-06-07,https://www.noma.security/careers/noma.security/careers/co/tel-aviv/FE.15A/senior-backend-engineer/all,Not Specified
+Island,Technology,Senior Backend EngineerTel Aviv,Israel (Detected),Not Specified,2026-06-07,https://www.island.io/careers/#see-open-positions,Not Specified
+Island,Technology,Senior Backend EngineerTel Aviv,Israel (Detected),Not Specified,2026-06-07,https://www.island.io/careers/#,Not Specified
+ScaleOps,Technology,Backend EngineerIsraelFull-timeOn-siteApply Online,Israel (Detected),On-site,2026-06-07,https://scaleops.com/careers/scaleops.com/careers/co/israel/38.54F/backend-engineer/all,Not Specified
