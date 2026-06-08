@@ -11,8 +11,10 @@ from playwright.sync_api import sync_playwright
 JOBS_DIR = "jobs"
 CSV_FILE = "all_jobs.csv"
 
+# מילון הקטגוריות המעודכן והמדויק
 CATEGORIES = {
-    "CTO-VP R&D": ["cto", "vp r&d", "vp rd", "svp r&d", "head of r&d", "head of rd", "vp engineering", "vp engineering"],
+    "Executive R&D": ["cto", "vp r&d", "vp rd", "svp r&d", "head of r&d", "head of rd", "vp engineering", "svp engineering", "head of engineering"],
+    "mobile": ["mobile", "ios", "android", "flutter", "react native", "swift", "kotlin"],
     "frontend": ["frontend", "front-end", "front end", "react", "vue", "angular", "ui/ux", "web sdk"],
     "backend": ["backend", "back-end", "back end", "python", "node", "java", "go ", "golang", "ruby"],
     "fullstack": ["fullstack", "full-stack", "full stack", "web developer"],
@@ -29,7 +31,7 @@ CATEGORIES = {
     "sales": ["sales", "account manager", "bizdev", "business development", "inside sales", "account executive", "presales"],
     "marketing": ["marketing", "seo", "growth", "content creator", "copywriter", "ppc", "brand"],
     "support": ["support", "customer success", "technical account manager", "tam", "helpdesk", "tier"],
-    "software": ["software engineer", "software developer", "r&d", "developer", "architect","director of r&d", "director of rd"]
+    "software": ["software engineer", "software developer", "r&d", "developer", "architect", "director of r&d", "director of rd"]
 }
 
 TECH_KEYWORDS = ["React", "Vue", "Angular", "Node", "Node.js", "Python", "Java", "Go", "Golang", "Ruby", "Rails", "PHP", "Laravel", "C#", ".NET", "C++", "TypeScript", "JavaScript", "AWS", "Azure", "GCP", "Docker", "Kubernetes", "SQL", "NoSQL", "MongoDB", "PostgreSQL", "Redis", "Kafka", "GraphQL", "Swift", "Kotlin", "Flutter", "React Native", "Snowflake", "Databricks", "Spark", "Hadoop", "Terraform", "CI/CD"]
@@ -38,7 +40,8 @@ def categorize_job(title):
     t = title.lower()
     for cat, keywords in CATEGORIES.items():
         for kw in keywords:
-            if kw in t: return cat
+            if kw in t: 
+                return cat
     return "other"
 
 def is_in_israel(loc, title=""):
@@ -51,15 +54,13 @@ def is_in_israel(loc, title=""):
         if word in loc_lower or word in title_lower:
             return False
 
-    # מילות מפתח לאישור המיקום בישראל (בערים או בשם המדינה)
+    # מילות מפתח לאישור המיקום בישראל
     israel_keywords = [
         "israel", "ישראל", "tel aviv", "תל אביב", "herzliya", "הרצליה", 
         "haifa", "חיפה", "jerusalem", "ירושלים", "raanana", "רעננה", 
         "netanya", "נתניה", "petah tikva", "פתח תקווה", "rehovot", "רחובות",
         "yokneam", "יקנעם", "hod hasharon", "הוד השרון", "givatayim", "גבעתיים", "ramat gan", "רמת גן"
     ]
-    
-    # בדיקה האם אחד מהביטויים מופיע במיקום או בכותרת המשרה
     return any(k in loc_lower for k in israel_keywords) or any(k in title_lower for k in israel_keywords)
 
 def detect_work_model(title, location, description=""):
@@ -102,7 +103,6 @@ def fetch_bamboohr(cid):
         res = requests.get(f"https://{cid}.bamboohr.com/jobs/embed2.php", timeout=10)
         if res.status_code != 200: return []
         soup = BeautifulSoup(res.text, 'html.parser')
-        # שונה: לא מניחים אוטומטית שזה ישראל, אלא משאירים ריק לבדיקה בהמשך אם אין מיקום
         return [{"title": a.get_text(strip=True), "location": "", "url": f"https://{cid}.bamboohr.com/careers/{a.get('href').split('=')[-1]}", "description": ""} for a in soup.select('.BambooHR-ATS-Jobs-Item a')]
     except: return []
 
@@ -114,30 +114,47 @@ def fetch_custom_site(url):
             page.goto(url, wait_until="domcontentloaded", timeout=20000)
             soup = BeautifulSoup(page.content(), 'html.parser')
             browser.close()
-            titles = ['engineer', 'developer', 'manager', 'specialist', 'analyst', 'vp', 'lead', 'expert', 'architect', 'product', 'sales', 'marketing', 'support', 'qa', 'cto', 'security']
+            titles = ['engineer', 'developer', 'manager', 'specialist', 'analyst', 'vp', 'lead', 'expert', 'architect', 'product', 'sales', 'marketing', 'support', 'qa', 'cto', 'security', 'head']
             jobs = []
             for el in soup.find_all(['a', 'h3', 'h4', 'span'], class_=re.compile(r'job|position|career|title', re.I)):
                 text = el.get_text(strip=True)
                 if 5 < len(text) < 60 and any(kw in text.lower() for kw in titles):
                     link = el.get('href') if el.name == 'a' else url
-                    # שונה: לא כותבים אוטומטית "Israel" במיקום, נותנים לפונקציית הסינון לבדוק לפי הכותרת
                     jobs.append({"title": text, "location": "", "url": link if link.startswith('http') else url.rstrip('/') + '/' + link.lstrip('/'), "description": ""})
             return jobs
     except: return []
 
+def load_existing_jobs():
+    """טוען משרות קיימות מהקובץ הראשי כדי לשמור על תאריכים מקוריים ולמנוע כפילויות"""
+    existing_jobs = {}
+    if os.path.exists(CSV_FILE):
+        try:
+            with open(CSV_FILE, 'r', encoding='utf-8') as f:
+                reader = csv.DictReader(f)
+                for row in reader:
+                    if row.get('url'):
+                        existing_jobs[row['url']] = row
+        except Exception as e:
+            print(f"Error loading existing CSV: {e}")
+    return existing_jobs
+
 def main():
+    # 1. טעינת בסיס הנתונים הקיים
+    existing_jobs = load_existing_jobs()
+    
+    # 2. ניקוי ויצירת תיקיית הקטגוריות מחדש לצורך חלוקה עדכנית
     if os.path.exists(JOBS_DIR): shutil.rmtree(JOBS_DIR)
     os.makedirs(JOBS_DIR)
     
     try:
         with open('companies.json', 'r', encoding='utf-8') as f: companies = json.load(f)
         with open('categories.json', 'r', encoding='utf-8') as f: sectors_map = json.load(f)
-    except: return
+    except Exception as e:
+        print(f"Error loading config files: {e}")
+        return
 
-    all_jobs_data = []
-    categorized_jobs = {cat: [] for cat in CATEGORIES.keys()}
-    categorized_jobs["other"] = []
-    dev_cats = ["frontend", "backend", "fullstack", "devops", "software", "data science", "data", "ai engineer", "automation"]
+    new_jobs_count = 0
+    dev_cats = ["frontend", "backend", "fullstack", "devops", "software", "data science", "data", "ai engineer", "automation", "mobile"]
 
     for company in companies:
         comp_type, comp_id, comp_name = company.get('type', '').lower(), company.get('id'), company.get('name')
@@ -152,14 +169,19 @@ def main():
         elif comp_type == 'custom': raw_jobs = fetch_custom_site(company.get('url'))
 
         for j in raw_jobs:
-            title = j.get('title') or j.get('name') or j.get('text', 'No Title')
-            
-            # תיקון ברירת מחדל: לא שמים אוטומטית 'Israel' אלא מחרוזת ריקה אם אין מיקום
+            title = j.get('title') or j.get('name') or j.get('text', 'No Title').strip()
             loc = j.get('location', {}).get('name', '') if isinstance(j.get('location'), dict) else j.get('location', '')
-            pub_date = j.get('created_at', datetime.now().strftime('%Y-%m-%d'))[:10]
+            url = j.get('absolute_url') or j.get('url_active_page') or j.get('hostedUrl') or j.get('jobUrl') or j.get('url', '#').strip()
             
-            # הפונקציה המעודכנת מקבלת כעת גם את המיקום וגם את הכותרת
+            # הגנה מפני כפל: אם ה-URL כבר קיים, לא נוגעים במשרה ולא מעדכנים תאריך
+            if url in existing_jobs:
+                continue
+
             if is_in_israel(loc, title):
+                # שליפת תאריך מגוונת מה-API, ואם לא קיים - תאריך הגילוי של הריצה הנוכחית
+                raw_date = j.get('created_at') or j.get('postedAt') or j.get('published') or datetime.now().strftime('%Y-%m-%d')
+                pub_date = raw_date[:10]
+                
                 cat = categorize_job(title)
                 data = {
                     "company": comp_name,
@@ -168,16 +190,33 @@ def main():
                     "location": loc if loc else "Israel (Detected)",
                     "work_model": detect_work_model(title, loc, j.get('description', '')),
                     "date": pub_date,
-                    "url": j.get('absolute_url') or j.get('url_active_page') or j.get('hostedUrl') or j.get('jobUrl') or j.get('url', '#'),
+                    "url": url,
                     "technologies": ", ".join(extract_technologies(title, j.get('description', ''))) if cat in dev_cats else "N/A"
                 }
-                categorized_jobs[cat].append(data)
-                all_jobs_data.append(data)
+                existing_jobs[url] = data
+                new_jobs_count += 1
 
+    print(f"Scraping completed. Found {new_jobs_count} new jobs. Total unique jobs in file: {len(existing_jobs)}")
+
+    # הפיכת המילון חזרה לרשימה
+    all_jobs_data = list(existing_jobs.values())
+    
+    # מיון המשרות מהחדש ביותר לישן ביותר
+    all_jobs_data.sort(key=lambda x: x['date'], reverse=True)
+
+    # 3. כתיבה מחדש לקובץ הראשי המאוחד
     with open(CSV_FILE, 'w', newline='', encoding='utf-8') as f:
         writer = csv.DictWriter(f, fieldnames=["company", "industry", "title", "location", "work_model", "date", "url", "technologies"])
         writer.writeheader()
         writer.writerows(all_jobs_data)
+
+    # 4. חלוקה מחדש ומעודכנת לקבצי הקטגוריות בתיקייה
+    categorized_jobs = {cat: [] for cat in CATEGORIES.keys()}
+    categorized_jobs["other"] = []
+    
+    for data in all_jobs_data:
+        cat = categorize_job(data['title'])
+        categorized_jobs[cat].append(data)
 
     for cat, jobs in categorized_jobs.items():
         if not jobs: continue
